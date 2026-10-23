@@ -1,0 +1,29 @@
+DISCHARGE SUMMARY (SYNTHETIC - NOT A REAL PATIENT)
+
+Admission Date: 03/02/2025
+Discharge Date: 03/07/2025
+
+Chief Complaint: Shortness of breath and leg swelling for 4 days.
+
+Principal Diagnosis: Acute on chronic systolic heart failure.
+
+Hospital Course: 68-year-old male with a history of hypertension, type 2 diabetes and coronary artery disease presented with worsening dyspnea and bilateral leg edema. Chest X-ray showed pulmonary congestion. BNP was elevated at 1450. He was started on intravenous furosemide and diuresed about 5 liters over four days. His oxygen requirement resolved and he was weaned to room air. Creatinine rose slightly to 1.6 but returned to baseline of 1.3 before discharge. Metoprolol was continued. Lisinopril was held on admission because of the creatinine rise and restarted at a lower dose on day 4. Echocardiogram showed an ejection fraction of 35 percent. He was seen by the heart failure nurse and educated on daily weights and a 2 gram sodium diet.
+
+Discharge Medications:
+1. Furosemide 40 mg PO BID (CHANGED - increased from 20 mg daily)
+2. Lisinopril 5 mg PO daily (CHANGED - dose decreased from 10 mg)
+3. Metoprolol succinate 50 mg PO daily (CONTINUE)
+4. Metformin 500 mg PO BID (CONTINUE)
+5. Atorvastatin 40 mg PO QHS (CONTINUE)
+6. Spironolactone 12.5 mg PO daily (NEW)
+7. Aspirin 81 mg PO daily (STOPPED - patient was started on apixaban elsewhere)
+
+Allergies: Penicillin (rash).
+
+Follow-up: Primary care in 7 days with repeat basic metabolic panel. Cardiology clinic in 2 weeks. Heart failure nurse phone call in 48 hours.
+
+Pending Results: Final blood culture report pending at discharge.
+
+Discharge Condition: Stable, ambulating independently, on room air.
+
+Discharge Instructions: Weigh yourself every morning. Call your doctor if weight increases by more than 3 pounds in one day or 5 pounds in one week. Return to the emergency department if you have severe shortness of breath, chest pain, or fainting.

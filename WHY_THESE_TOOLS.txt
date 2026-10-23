@@ -1,0 +1,165 @@
+WHY THESE TOOLS?  (Discharge Summary Assistant)
+================================================
+
+GOAL
+----
+Help a busy US clinician (hospitalist, PCP, or nurse care manager) read a
+discharge summary in 30 seconds instead of 5 minutes. The tool pulls out:
+medication changes, a short hospital course, follow-up tasks, pending
+results, and return precautions.
+
+Everything below is free and open source.
+
+
+HOW TO RUN
+----------
+1. python -m venv venv && source venv/bin/activate     (Windows: venv\Scripts\activate)
+2. pip install spacy scikit-learn numpy
+3. python discharge_assistant.py                         (uses the sample note)
+4. python discharge_assistant.py my_note.txt --save brief.txt
+
+Optional biomedical term extraction (scispaCy):
+   pip install scispacy
+   pip install <en_core_sci_sm link from https://allenai.github.io/scispacy/>
+
+
+FILES
+-----
+discharge_assistant.py          main code (heavily commented)
+sample_discharge_summary.txt    synthetic note (no real patient)
+sample_output.txt               what the tool prints for that note
+requirements.txt                packages
+WHY_THESE_TOOLS.txt             this file
+
+
+------------------------------------------------------------------------
+1. PYTHON
+------------------------------------------------------------------------
+Chosen because: it is the standard language of NLP and clinical data
+science. Nearly every tool in this space (spaCy, scispaCy, Hugging Face,
+MIMIC loaders) has a Python version, and the code stays readable for
+people who are not full-time programmers.
+
+Alternatives: R (good for statistics, weaker NLP ecosystem), Java (used
+by Apache cTAKES, powerful but heavy and harder for beginners).
+
+
+------------------------------------------------------------------------
+2. spaCy  (sentence splitting, pipeline)
+------------------------------------------------------------------------
+Chosen because:
+ - Fast, runs on a normal laptop CPU, no GPU needed.
+ - Clean, well-documented API; MIT licence (free for commercial use).
+ - Works fully offline, so patient text never leaves your computer.
+ - We use spacy.blank("en") + sentencizer, which needs NO model download,
+   so the core project always runs.
+
+Why not NLTK? NLTK is older and more of a teaching toolkit. spaCy is
+faster, more modern, and is the base that scispaCy and medspaCy build on.
+
+Why not a transformer for sentence splitting? Overkill. A rule-based
+sentencizer is enough for well-formed clinical sentences.
+
+
+------------------------------------------------------------------------
+3. scispaCy  (OPTIONAL biomedical terms)
+------------------------------------------------------------------------
+Chosen because: a general English model does not know "BNP", "creatinine"
+or "ejection fraction". scispaCy models are trained on biomedical text and
+plug straight into spaCy. Free and open source (Apache 2.0, from the Allen
+Institute for AI).
+
+Why optional? The install needs a separate model download and can have
+version conflicts. Making it optional keeps the project easy to start.
+The core features (meds, follow-up, summary) do not depend on it.
+
+Alternatives:
+ - medspaCy: adds clinical context rules (negation like "no chest pain",
+   family history). A great NEXT step once you want to know whether a
+   condition is present or ruled out.
+ - Apache cTAKES / MetaMap: mature, map terms to UMLS codes, but Java-
+   based and much harder to install.
+ - Cloud services (AWS Comprehend Medical, Google Healthcare NLP):
+   accurate but paid, and send text off your machine (see HIPAA below).
+
+
+------------------------------------------------------------------------
+4. REGULAR EXPRESSIONS (regex)  for sections and medications
+------------------------------------------------------------------------
+Chosen because: US discharge summaries are semi-structured. Section
+titles ("Discharge Medications:") and medication lines
+("Furosemide 40 mg PO BID") follow predictable patterns. Regex is:
+ - transparent: you can read exactly why a line matched,
+ - deterministic: same input gives the same output,
+ - easy to debug and fix when a hospital uses different wording.
+
+Trade-off: it breaks on messy or unusual formatting. For real
+deployment you would add more patterns or a trained section classifier.
+The code keeps the header list at the top so it is easy to extend.
+
+
+------------------------------------------------------------------------
+5. scikit-learn TF-IDF  (extractive summary)
+------------------------------------------------------------------------
+Chosen because:
+ - Very simple idea: sentences containing words that are distinctive in
+   this note (e.g. "diuresed", "creatinine") score higher than generic ones.
+ - Tiny, fast, no training data required.
+ - Explainable: you can show a clinician why a sentence was picked.
+
+WHY EXTRACTIVE (copy sentences) INSTEAD OF ABSTRACTIVE (write new text)?
+This is the most important design decision.
+ - Generative models (GPT-style, BART, T5, LLMs) can invent facts, such as
+   a wrong dose or a diagnosis not in the chart. In medicine that is a
+   safety risk.
+ - Extractive summaries only reuse sentences already written by the
+   clinician, so every line can be traced back to the source.
+
+Alternatives:
+ - TextRank / LexRank: similar idea, a little more complex, little gain here.
+ - Hugging Face models (e.g. BART, or clinical models such as
+   Clinical-T5 / BioGPT): can read more naturally but need more compute and
+   must be validated carefully for hallucinations.
+ - Large language models: powerful, but only use them if run locally or
+   under a HIPAA Business Associate Agreement (BAA).
+
+
+------------------------------------------------------------------------
+6. DATA: where to get real discharge summaries (free)
+------------------------------------------------------------------------
+The included sample is SYNTHETIC so you can test immediately.
+
+For realistic US data:
+ - MIMIC-IV-Note (PhysioNet, MIT/Beth Israel Deaconess Medical Center):
+   contains de-identified discharge summaries from US hospital stays.
+   Free, but you must complete a short CITI "Data or Specimens Only
+   Research" training and sign a data use agreement at physionet.org.
+ - Use these notes only for research and follow the data use agreement.
+   Never upload them to public services.
+
+Why MIMIC? It is the most widely used open clinical-notes dataset in the
+US, so results are comparable with published research.
+
+
+------------------------------------------------------------------------
+7. PRIVACY / HIPAA NOTES (important)
+------------------------------------------------------------------------
+ - This project runs 100 percent locally. No text is sent to the internet,
+   which is why we avoided paid cloud APIs.
+ - Only use de-identified or synthetic notes while experimenting.
+ - Real PHI (names, dates, MRNs) requires your organisation's approval.
+ - This is a learning / decision-support prototype, NOT a certified
+   medical device. A clinician must always verify against the full note.
+
+
+------------------------------------------------------------------------
+8. HOW TO IMPROVE IT NEXT (suggested path)
+------------------------------------------------------------------------
+ 1. Test on 20-50 de-identified MIMIC-IV notes and fix regex misses.
+ 2. Add medspaCy to detect negation ("denies chest pain").
+ 3. Check medication names against RxNorm (free from the US National
+    Library of Medicine) to catch spelling variants.
+ 4. Add a simple web page with Streamlit (free) so clinicians can paste a
+    note and see the brief.
+ 5. Measure quality: have a clinician rate whether any important item
+    (med change, pending result, follow-up) was missed.

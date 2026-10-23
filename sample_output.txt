@@ -1,0 +1,45 @@
+============================================================
+CLINICIAN BRIEF  (auto-generated - verify against full note)
+============================================================
+
+[KEY FACTS]
+  Admission Date: 03/02/2025
+  Discharge Date: 03/07/2025
+  Principal Diagnosis: Acute on chronic systolic heart failure.
+  Allergies: Penicillin (rash).
+  Discharge Condition: Stable, ambulating independently, on room air.
+
+[MEDICATION CHANGES]  <- check these first
+  CHANGED  Furosemide 40 mg PO BID (CHANGED - increased from 20 mg daily)
+  CHANGED  Lisinopril 5 mg PO DAILY (CHANGED - dose decreased from 10 mg)
+  NEW      Spironolactone 12.5 mg PO DAILY (NEW)
+  STOPPED  Aspirin 81 mg PO DAILY (STOPPED - patient was started on apixaban elsewhere)
+
+[CONTINUED MEDICATIONS]
+  - Metoprolol Succinate 50 mg PO DAILY
+  - Metformin 500 mg PO BID
+  - Atorvastatin 40 mg PO QHS
+
+[HOSPITAL COURSE - KEY SENTENCES]
+  * 68-year-old male with a history of hypertension, type 2 diabetes and coronary artery disease presented with worsening dyspnea and bilateral leg edema.
+  * Chest X-ray showed pulmonary congestion.
+  * His oxygen requirement resolved and he was weaned to room air.
+  * Lisinopril was held on admission because of the creatinine rise and restarted at a lower dose on day 4.
+
+[FOLLOW-UP TASKS]
+  [ ] Primary care in 7 days with repeat basic metabolic panel.
+  [ ] Cardiology clinic in 2 weeks.
+  [ ] Heart failure nurse phone call in 48 hours.
+
+[PENDING RESULTS - someone must check these]
+  [ ] Final blood culture report pending at discharge.
+
+[WARNING SIGNS / RETURN PRECAUTIONS]
+  ! Call your doctor if weight increases by more than 3 pounds in one day or 5 pounds in one week.
+  ! Return to the emergency department if you have severe shortness of breath, chest pain, or fainting.
+
+[MEDICAL TERMS FOUND (scispaCy)]
+  scispaCy model not installed - skipped (see requirements.txt)
+
+------------------------------------------------------------
+Decision support only. Not a substitute for clinical judgment.
