@@ -1,0 +1,3214 @@
+[
+ {
+  "id": "note_01",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 1)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. She presented to the unit calm and cooperative. Creatinine rose to 1.6 and returned to baseline before discharge. Metoprolol succinate was started during admission. Lisinopril was started during admission. Furosemide was started during admission. He was seen by physical therapy. He was discharged home in stable condition.\n\nDischarge Medications:\n1. Metoprolol succinate 50 mg PO daily (NEW)\n2. Apixaban 5 mg PO QHS\n3. furosemide 20 mg PO daily (NEW)\n4. Lisinopril 20 mg PO BID (NEW)\n5. Amlodipine 5 mg PO TID (CONTINUE)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Primary care in 14 days with repeat basic metabolic panel. Heart failure nurse phone call in 14 days. Repeat chest X-ray in 7 weeks.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Seek help right away if you faint or have a fever above 101. Call your doctor if your weight increases by more than 3 pounds in one day. Follow a 2 gram sodium diet.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Metoprolol succinate",
+     "status": "NEW",
+     "dose": "50 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Apixaban",
+     "status": "UNSPECIFIED",
+     "dose": "5 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Furosemide",
+     "status": "NEW",
+     "dose": "20 mg",
+     "format": "lowercase"
+    },
+    {
+     "name": "Lisinopril",
+     "status": "NEW",
+     "dose": "20 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Amlodipine",
+     "status": "CONTINUE",
+     "dose": "5 mg",
+     "format": "numbered"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "She presented to the unit calm and cooperative.",
+    "Creatinine rose to 1.6 and returned to baseline before discharge.",
+    "Metoprolol succinate was started during admission.",
+    "Lisinopril was started during admission.",
+    "Furosemide was started during admission.",
+    "He was seen by physical therapy.",
+    "He was discharged home in stable condition."
+   ],
+   "course_key_idx": [
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "follow_up": [
+    "Primary care in 14 days with repeat basic metabolic panel.",
+    "Heart failure nurse phone call in 14 days.",
+    "Repeat chest X-ray in 7 weeks."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Call your doctor if your weight increases by more than 3 pounds in one day.",
+    "Seek help right away if you faint or have a fever above 101."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_02",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 2)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. The dose of Amlodipine was changed during admission. Symptoms improved and he was weaned to room air. The dose of Metformin was changed during admission. Lisinopril was started during admission. Echocardiogram showed an ejection fraction of 35 percent. Carvedilol was stopped because of low blood pressure. Case management arranged transport home. Warfarin was stopped because of low blood pressure. Nursing staff reviewed the medication schedule with the patient.\n\nDischarge Medications:\n- Metformin 1000mg PO daily [CHANGED]\nWarfarin 5 mg PO QHS - STOPPED\n- Lisinopril 2.5mg PO daily [NEW]\n4. Carvedilol 3.125-6.25 mg PO QHS (STOPPED)\n5. Apixaban 5 mg PO QHS (CONTINUE)\n- Amlodipine 5mg PO BID [CHANGED]\n\nAllergies: Penicillin (rash).\n\nFollow-up: Heart failure nurse phone call in 7 days. Repeat chest X-ray in 14 weeks. Cardiology clinic in 3 weeks.\n\nPending Results: Pathology from biopsy pending.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Follow a 2 gram sodium diet. Return to the emergency department if you have severe shortness of breath or chest pain.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions",
+    "Pending Results"
+   ],
+   "medications": [
+    {
+     "name": "Metformin",
+     "status": "CHANGED",
+     "dose": "1000 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Warfarin",
+     "status": "STOPPED",
+     "dose": "5 mg",
+     "format": "dash_status"
+    },
+    {
+     "name": "Lisinopril",
+     "status": "NEW",
+     "dose": "2.5 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Carvedilol",
+     "status": "STOPPED",
+     "dose": null,
+     "format": "dose_range"
+    },
+    {
+     "name": "Apixaban",
+     "status": "CONTINUE",
+     "dose": "5 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Amlodipine",
+     "status": "CHANGED",
+     "dose": "5 mg",
+     "format": "bracket"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "The dose of Amlodipine was changed during admission.",
+    "Symptoms improved and he was weaned to room air.",
+    "The dose of Metformin was changed during admission.",
+    "Lisinopril was started during admission.",
+    "Echocardiogram showed an ejection fraction of 35 percent.",
+    "Carvedilol was stopped because of low blood pressure.",
+    "Case management arranged transport home.",
+    "Warfarin was stopped because of low blood pressure.",
+    "Nursing staff reviewed the medication schedule with the patient."
+   ],
+   "course_key_idx": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8
+   ],
+   "follow_up": [
+    "Heart failure nurse phone call in 7 days.",
+    "Repeat chest X-ray in 14 weeks.",
+    "Cardiology clinic in 3 weeks."
+   ],
+   "has_pending": true,
+   "warnings": [
+    "Return to the emergency department if you have severe shortness of breath or chest pain."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": "Pending Results"
+   }
+  }
+ },
+ {
+  "id": "note_03",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 3)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. The dose of Metoprolol succinate was changed during admission. Echocardiogram showed an ejection fraction of 35 percent. The dose of Furosemide was changed during admission. Nursing staff reviewed the medication schedule with the patient. He was seen by physical therapy. He was discharged home in stable condition. She presented to the unit calm and cooperative.\n\nDischarge Medications:\n- Warfarin 5mg PO QHS [CONTINUE]\n2. Sertraline 100 mg PO BID\nSpironolactone 25 mg PO daily\n4. Metoprolol succinate 25-50 mg PO daily (CHANGED)\n5. Furosemide 20 mg PO TID (CHANGED)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Cardiology clinic in 2 weeks.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Call your doctor if your weight increases by more than 3 pounds in one day. Return to the emergency department if you have severe shortness of breath or chest pain. Follow a 2 gram sodium diet.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Warfarin",
+     "status": "CONTINUE",
+     "dose": "5 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Sertraline",
+     "status": "UNSPECIFIED",
+     "dose": "100 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Spironolactone",
+     "status": "UNSPECIFIED",
+     "dose": "25 mg",
+     "format": "dash_status"
+    },
+    {
+     "name": "Metoprolol succinate",
+     "status": "CHANGED",
+     "dose": null,
+     "format": "dose_range"
+    },
+    {
+     "name": "Furosemide",
+     "status": "CHANGED",
+     "dose": "20 mg",
+     "format": "numbered"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "The dose of Metoprolol succinate was changed during admission.",
+    "Echocardiogram showed an ejection fraction of 35 percent.",
+    "The dose of Furosemide was changed during admission.",
+    "Nursing staff reviewed the medication schedule with the patient.",
+    "He was seen by physical therapy.",
+    "He was discharged home in stable condition.",
+    "She presented to the unit calm and cooperative."
+   ],
+   "course_key_idx": [
+    1,
+    2,
+    3,
+    6
+   ],
+   "follow_up": [
+    "Cardiology clinic in 2 weeks."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Call your doctor if your weight increases by more than 3 pounds in one day.",
+    "Return to the emergency department if you have severe shortness of breath or chest pain."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_04",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 4)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. The dose of Metformin was changed during admission. Social history was reviewed with the family. The dose of Sertraline was changed during admission. Diet was advanced as tolerated. Echocardiogram showed an ejection fraction of 35 percent. She presented to the unit calm and cooperative. Her pain resolved and she tolerated a regular diet.\n\nDISCHARGE MEDICATIONS:\n1. Sertraline 50 mg PO TID (CHANGED)\n2) Metformin 500 mg PO BID (CHANGED)\n3. Amlodipine 2.5 mg PO daily (CONTINUE)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Cardiology clinic in 14 weeks.\n\nResults Pending: Final blood culture report pending at discharge.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Call your doctor if your weight increases by more than 3 pounds in one day. Bring your emergency contact list to every appointment.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions",
+    "Pending Results"
+   ],
+   "medications": [
+    {
+     "name": "Sertraline",
+     "status": "CHANGED",
+     "dose": "50 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Metformin",
+     "status": "CHANGED",
+     "dose": "500 mg",
+     "format": "paren_number"
+    },
+    {
+     "name": "Amlodipine",
+     "status": "CONTINUE",
+     "dose": "2.5 mg",
+     "format": "numbered"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "The dose of Metformin was changed during admission.",
+    "Social history was reviewed with the family.",
+    "The dose of Sertraline was changed during admission.",
+    "Diet was advanced as tolerated.",
+    "Echocardiogram showed an ejection fraction of 35 percent.",
+    "She presented to the unit calm and cooperative.",
+    "Her pain resolved and she tolerated a regular diet."
+   ],
+   "course_key_idx": [
+    1,
+    3,
+    5,
+    7
+   ],
+   "follow_up": [
+    "Cardiology clinic in 14 weeks."
+   ],
+   "has_pending": true,
+   "warnings": [
+    "Call your doctor if your weight increases by more than 3 pounds in one day."
+   ],
+   "header_variants": {
+    "meds": "DISCHARGE MEDICATIONS",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": "Results Pending"
+   }
+  }
+ },
+ {
+  "id": "note_05",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 5)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHOSPITAL COURSE: A patient presented with worsening symptoms over several days. Atorvastatin was stopped because of low blood pressure. Spironolactone was stopped because of low blood pressure. Echocardiogram showed an ejection fraction of 35 percent. She presented to the unit calm and cooperative. The dose of Apixaban was changed during admission. Lisinopril was started during admission. Her pain resolved and she tolerated a regular diet. Metoprolol succinate was started during admission. Case management arranged transport home. Diet was advanced as tolerated.\n\nDischarge Medications:\n1. Metoprolol succinate 50 mg PO BID (NEW)\n- Apixaban 2.5mg PO BID [CHANGED]\nSpironolactone 25 mg PO daily - STOPPED\n4. Lisinopril 2.5-5 mg PO QHS (NEW)\n5. Carvedilol 3.125 mg PO BID\n• Atorvastatin 40 mg PO daily (STOPPED)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Repeat chest X-ray in 2 weeks.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Call your doctor if your weight increases by more than 3 pounds in one day. Weigh yourself every morning. Seek help right away if you faint or have a fever above 101.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Metoprolol succinate",
+     "status": "NEW",
+     "dose": "50 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Apixaban",
+     "status": "CHANGED",
+     "dose": "2.5 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Spironolactone",
+     "status": "STOPPED",
+     "dose": "25 mg",
+     "format": "dash_status"
+    },
+    {
+     "name": "Lisinopril",
+     "status": "NEW",
+     "dose": null,
+     "format": "dose_range"
+    },
+    {
+     "name": "Carvedilol",
+     "status": "UNSPECIFIED",
+     "dose": "3.125 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Atorvastatin",
+     "status": "STOPPED",
+     "dose": "40 mg",
+     "format": "bullet_char"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Atorvastatin was stopped because of low blood pressure.",
+    "Spironolactone was stopped because of low blood pressure.",
+    "Echocardiogram showed an ejection fraction of 35 percent.",
+    "She presented to the unit calm and cooperative.",
+    "The dose of Apixaban was changed during admission.",
+    "Lisinopril was started during admission.",
+    "Her pain resolved and she tolerated a regular diet.",
+    "Metoprolol succinate was started during admission.",
+    "Case management arranged transport home.",
+    "Diet was advanced as tolerated."
+   ],
+   "course_key_idx": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8
+   ],
+   "follow_up": [
+    "Repeat chest X-ray in 2 weeks."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Seek help right away if you faint or have a fever above 101.",
+    "Call your doctor if your weight increases by more than 3 pounds in one day."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "HOSPITAL COURSE",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_06",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 6)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. He was discharged home in stable condition. He was seen by physical therapy. Chest X-ray showed pulmonary congestion. Aspirin was stopped because of low blood pressure. The dose of Warfarin was changed during admission. Nursing staff reviewed the medication schedule with the patient. Spironolactone was stopped because of low blood pressure.\n\nDischarge Medications:\nAspirin 81 mg PO QHS - STOPPED\n• Spironolactone 12.5 mg PO BID (STOPPED)\n- Warfarin 5mg PO TID [CHANGED]\n\nAllergies: Penicillin (rash).\n\nFollow-up: Heart failure nurse phone call in 3 days.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Seek help right away if you faint or have a fever above 101. Bring your emergency contact list to every appointment.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Aspirin",
+     "status": "STOPPED",
+     "dose": "81 mg",
+     "format": "dash_status"
+    },
+    {
+     "name": "Spironolactone",
+     "status": "STOPPED",
+     "dose": "12.5 mg",
+     "format": "bullet_char"
+    },
+    {
+     "name": "Warfarin",
+     "status": "CHANGED",
+     "dose": "5 mg",
+     "format": "bracket"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "He was discharged home in stable condition.",
+    "He was seen by physical therapy.",
+    "Chest X-ray showed pulmonary congestion.",
+    "Aspirin was stopped because of low blood pressure.",
+    "The dose of Warfarin was changed during admission.",
+    "Nursing staff reviewed the medication schedule with the patient.",
+    "Spironolactone was stopped because of low blood pressure."
+   ],
+   "course_key_idx": [
+    1,
+    3,
+    4,
+    5,
+    7
+   ],
+   "follow_up": [
+    "Heart failure nurse phone call in 3 days."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Seek help right away if you faint or have a fever above 101."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_07",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 7)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. Amlodipine was stopped because of low blood pressure. Symptoms improved and he was weaned to room air. He was seen by physical therapy. Blood cultures were drawn on admission. Case management arranged transport home. Spironolactone was started during admission. The dose of Atorvastatin was changed during admission. Social history was reviewed with the family. Sertraline was started during admission. Apixaban was stopped because of low blood pressure.\n\nDischarge Medications:\n- Spironolactone 25mg PO daily [NEW]\n2. Apixaban 5 mg PO daily (STOPPED)\n3. Atorvastatin 10 mg PO TID (CHANGED)\n4. Sertraline 50 mg PO BID (NEW)\nAmlodipine 5 mg PO QHS - STOPPED\n6. Furosemide 80 mg PO BID\n\nAllergies: Penicillin (rash).\n\nFollow-up: Cardiology clinic in 3 weeks. Primary care in 2 days with repeat basic metabolic panel.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Return to the emergency department if you have severe shortness of breath or chest pain. Seek help right away if you faint or have a fever above 101. Take your medicines as listed.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Spironolactone",
+     "status": "NEW",
+     "dose": "25 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Apixaban",
+     "status": "STOPPED",
+     "dose": "5 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Atorvastatin",
+     "status": "CHANGED",
+     "dose": "10 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Sertraline",
+     "status": "NEW",
+     "dose": "50 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Amlodipine",
+     "status": "STOPPED",
+     "dose": "5 mg",
+     "format": "dash_status"
+    },
+    {
+     "name": "Furosemide",
+     "status": "UNSPECIFIED",
+     "dose": "80 mg",
+     "format": "numbered"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Amlodipine was stopped because of low blood pressure.",
+    "Symptoms improved and he was weaned to room air.",
+    "He was seen by physical therapy.",
+    "Blood cultures were drawn on admission.",
+    "Case management arranged transport home.",
+    "Spironolactone was started during admission.",
+    "The dose of Atorvastatin was changed during admission.",
+    "Social history was reviewed with the family.",
+    "Sertraline was started during admission.",
+    "Apixaban was stopped because of low blood pressure."
+   ],
+   "course_key_idx": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    9,
+    10
+   ],
+   "follow_up": [
+    "Cardiology clinic in 3 weeks.",
+    "Primary care in 2 days with repeat basic metabolic panel."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Return to the emergency department if you have severe shortness of breath or chest pain.",
+    "Seek help right away if you faint or have a fever above 101."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_08",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 8)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. Creatinine rose to 1.6 and returned to baseline before discharge. He was discharged home in stable condition. Social history was reviewed with the family. Amlodipine was stopped because of low blood pressure. Carvedilol was stopped because of low blood pressure. She presented to the unit calm and cooperative. The dose of Metformin was changed during admission. Diet was advanced as tolerated. The dose of Spironolactone was changed during admission.\n\nDischarge Medications:\n1. Spironolactone 12.5 mg PO QHS (CHANGED)\nFurosemide 20 mg PO QHS - CONTINUE\n3. Metformin 1000 mg PO BID (CHANGED)\n• Carvedilol 6.25 mg PO daily (STOPPED)\n5. Amlodipine 2.5 mg PO QHS (STOPPED)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Heart failure nurse phone call in 7 days. Repeat chest X-ray in 3 weeks.\n\nPending Results: Final blood culture report pending at discharge.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Return to the emergency department if you have severe shortness of breath or chest pain. Weigh yourself every morning. Call your doctor if your weight increases by more than 3 pounds in one day.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions",
+    "Pending Results"
+   ],
+   "medications": [
+    {
+     "name": "Spironolactone",
+     "status": "CHANGED",
+     "dose": "12.5 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Furosemide",
+     "status": "CONTINUE",
+     "dose": "20 mg",
+     "format": "dash_status"
+    },
+    {
+     "name": "Metformin",
+     "status": "CHANGED",
+     "dose": "1000 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Carvedilol",
+     "status": "STOPPED",
+     "dose": "6.25 mg",
+     "format": "bullet_char"
+    },
+    {
+     "name": "Amlodipine",
+     "status": "STOPPED",
+     "dose": "2.5 mg",
+     "format": "numbered"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Creatinine rose to 1.6 and returned to baseline before discharge.",
+    "He was discharged home in stable condition.",
+    "Social history was reviewed with the family.",
+    "Amlodipine was stopped because of low blood pressure.",
+    "Carvedilol was stopped because of low blood pressure.",
+    "She presented to the unit calm and cooperative.",
+    "The dose of Metformin was changed during admission.",
+    "Diet was advanced as tolerated.",
+    "The dose of Spironolactone was changed during admission."
+   ],
+   "course_key_idx": [
+    1,
+    2,
+    4,
+    5,
+    7,
+    9
+   ],
+   "follow_up": [
+    "Heart failure nurse phone call in 7 days.",
+    "Repeat chest X-ray in 3 weeks."
+   ],
+   "has_pending": true,
+   "warnings": [
+    "Return to the emergency department if you have severe shortness of breath or chest pain.",
+    "Call your doctor if your weight increases by more than 3 pounds in one day."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": "Pending Results"
+   }
+  }
+ },
+ {
+  "id": "note_09",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 9)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. The dose of Lisinopril was changed during admission. He was discharged home in stable condition. Chest X-ray showed pulmonary congestion. Metformin was started during admission. She presented to the unit calm and cooperative. Diet was advanced as tolerated. Case management arranged transport home.\n\nDischarge Medications:\n1. Metformin 1000 mg PO BID (NEW)\n2. lisinopril 2.5 mg PO QHS (CHANGED)\n3) Metoprolol succinate 50 mg PO BID (CONTINUE)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Primary care in 2 days with repeat basic metabolic panel.\n\nPending Results: Final blood culture report pending at discharge.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Call your doctor if your weight increases by more than 3 pounds in one day. Take your medicines as listed. Weigh yourself every morning. Return to the emergency department if you have severe shortness of breath or chest pain.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions",
+    "Pending Results"
+   ],
+   "medications": [
+    {
+     "name": "Metformin",
+     "status": "NEW",
+     "dose": "1000 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Lisinopril",
+     "status": "CHANGED",
+     "dose": "2.5 mg",
+     "format": "lowercase"
+    },
+    {
+     "name": "Metoprolol succinate",
+     "status": "CONTINUE",
+     "dose": "50 mg",
+     "format": "paren_number"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "The dose of Lisinopril was changed during admission.",
+    "He was discharged home in stable condition.",
+    "Chest X-ray showed pulmonary congestion.",
+    "Metformin was started during admission.",
+    "She presented to the unit calm and cooperative.",
+    "Diet was advanced as tolerated.",
+    "Case management arranged transport home."
+   ],
+   "course_key_idx": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "follow_up": [
+    "Primary care in 2 days with repeat basic metabolic panel."
+   ],
+   "has_pending": true,
+   "warnings": [
+    "Return to the emergency department if you have severe shortness of breath or chest pain.",
+    "Call your doctor if your weight increases by more than 3 pounds in one day."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": "Pending Results"
+   }
+  }
+ },
+ {
+  "id": "note_10",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 10)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. He was discharged home in stable condition. Nursing staff reviewed the medication schedule with the patient. Echocardiogram showed an ejection fraction of 35 percent. He was seen by physical therapy. Sertraline was stopped because of low blood pressure.\n\nDischarge Meds:\n1) Sertraline 25 mg PO BID (STOPPED)\n2. Aspirin 81 mg PO TID (CONTINUE)\n3. Metformin 500 mg PO TID\n\nAllergies: Penicillin (rash).\n\nFollow-up: Cardiology clinic in 7 weeks. Heart failure nurse phone call in 7 days. Repeat chest X-ray in 14 weeks.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Take your medicines as listed. Seek help right away if you faint or have a fever above 101.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Sertraline",
+     "status": "STOPPED",
+     "dose": "25 mg",
+     "format": "paren_number"
+    },
+    {
+     "name": "Aspirin",
+     "status": "CONTINUE",
+     "dose": "81 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Metformin",
+     "status": "UNSPECIFIED",
+     "dose": "500 mg",
+     "format": "numbered"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "He was discharged home in stable condition.",
+    "Nursing staff reviewed the medication schedule with the patient.",
+    "Echocardiogram showed an ejection fraction of 35 percent.",
+    "He was seen by physical therapy.",
+    "Sertraline was stopped because of low blood pressure."
+   ],
+   "course_key_idx": [
+    1,
+    3,
+    5
+   ],
+   "follow_up": [
+    "Cardiology clinic in 7 weeks.",
+    "Heart failure nurse phone call in 7 days.",
+    "Repeat chest X-ray in 14 weeks."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Seek help right away if you faint or have a fever above 101."
+   ],
+   "header_variants": {
+    "meds": "Discharge Meds",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_11",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 11)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. Her pain resolved and she tolerated a regular diet. He was seen by physical therapy. She presented to the unit calm and cooperative. The dose of Metformin was changed during admission. Nursing staff reviewed the medication schedule with the patient. Echocardiogram showed an ejection fraction of 35 percent. Lisinopril was stopped because of low blood pressure. Apixaban was stopped because of low blood pressure.\n\ndischarge medications:\n1. Metformin 500 mg PO TID (CHANGED)\n2. apixaban 2.5 mg PO BID (STOPPED)\n3. Atorvastatin 80 mg PO QHS (CONTINUE)\n4. Warfarin 5 mg PO TID (CONTINUE)\n5. Lisinopril 20 mg PO TID (STOPPED)\n6. Sertraline 50-100 mg PO daily (CONTINUE)\n\nAllergies: Penicillin (rash).\n\nFollowup Instructions: Heart failure nurse phone call in 3 days.\n\nResults Pending: Final blood culture report pending at discharge.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Take your medicines as listed. Call your doctor if your weight increases by more than 3 pounds in one day. Seek help right away if you faint or have a fever above 101.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions",
+    "Pending Results"
+   ],
+   "medications": [
+    {
+     "name": "Metformin",
+     "status": "CHANGED",
+     "dose": "500 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Apixaban",
+     "status": "STOPPED",
+     "dose": "2.5 mg",
+     "format": "lowercase"
+    },
+    {
+     "name": "Atorvastatin",
+     "status": "CONTINUE",
+     "dose": "80 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Warfarin",
+     "status": "CONTINUE",
+     "dose": "5 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Lisinopril",
+     "status": "STOPPED",
+     "dose": "20 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Sertraline",
+     "status": "CONTINUE",
+     "dose": null,
+     "format": "dose_range"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Her pain resolved and she tolerated a regular diet.",
+    "He was seen by physical therapy.",
+    "She presented to the unit calm and cooperative.",
+    "The dose of Metformin was changed during admission.",
+    "Nursing staff reviewed the medication schedule with the patient.",
+    "Echocardiogram showed an ejection fraction of 35 percent.",
+    "Lisinopril was stopped because of low blood pressure.",
+    "Apixaban was stopped because of low blood pressure."
+   ],
+   "course_key_idx": [
+    1,
+    4,
+    6,
+    7,
+    8
+   ],
+   "follow_up": [
+    "Heart failure nurse phone call in 3 days."
+   ],
+   "has_pending": true,
+   "warnings": [
+    "Call your doctor if your weight increases by more than 3 pounds in one day.",
+    "Seek help right away if you faint or have a fever above 101."
+   ],
+   "header_variants": {
+    "meds": "discharge medications",
+    "course": "Hospital Course",
+    "follow": "Followup Instructions",
+    "pending": "Results Pending"
+   }
+  }
+ },
+ {
+  "id": "note_12",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 12)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHOSPITAL COURSE: A patient presented with worsening symptoms over several days. The dose of Furosemide was changed during admission. Aspirin was stopped because of low blood pressure. He was seen by physical therapy. Diet was advanced as tolerated. Creatinine rose to 1.6 and returned to baseline before discharge. He was discharged home in stable condition. She presented to the unit calm and cooperative. The dose of Apixaban was changed during admission.\n\ndischarge medications:\n1. Furosemide 80 mg PO daily (CHANGED)\n2. Apixaban 2.5 mg PO TID (CHANGED)\n3. Aspirin 81 mg PO QHS (STOPPED)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Repeat chest X-ray in 3 weeks. Primary care in 3 days with repeat basic metabolic panel.\n\nPending Results: Final blood culture report pending at discharge.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Return to the emergency department if you have severe shortness of breath or chest pain. Seek help right away if you faint or have a fever above 101. Bring your emergency contact list to every appointment. Follow a 2 gram sodium diet.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions",
+    "Pending Results"
+   ],
+   "medications": [
+    {
+     "name": "Furosemide",
+     "status": "CHANGED",
+     "dose": "80 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Apixaban",
+     "status": "CHANGED",
+     "dose": "2.5 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Aspirin",
+     "status": "STOPPED",
+     "dose": "81 mg",
+     "format": "numbered"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "The dose of Furosemide was changed during admission.",
+    "Aspirin was stopped because of low blood pressure.",
+    "He was seen by physical therapy.",
+    "Diet was advanced as tolerated.",
+    "Creatinine rose to 1.6 and returned to baseline before discharge.",
+    "He was discharged home in stable condition.",
+    "She presented to the unit calm and cooperative.",
+    "The dose of Apixaban was changed during admission."
+   ],
+   "course_key_idx": [
+    1,
+    2,
+    5,
+    6,
+    8
+   ],
+   "follow_up": [
+    "Repeat chest X-ray in 3 weeks.",
+    "Primary care in 3 days with repeat basic metabolic panel."
+   ],
+   "has_pending": true,
+   "warnings": [
+    "Seek help right away if you faint or have a fever above 101.",
+    "Return to the emergency department if you have severe shortness of breath or chest pain."
+   ],
+   "header_variants": {
+    "meds": "discharge medications",
+    "course": "HOSPITAL COURSE",
+    "follow": "Follow-up",
+    "pending": "Pending Results"
+   }
+  }
+ },
+ {
+  "id": "note_13",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 13)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. Aspirin was started during admission. The dose of Amlodipine was changed during admission. Furosemide was stopped because of low blood pressure. He was discharged home in stable condition. Creatinine rose to 1.6 and returned to baseline before discharge. Nursing staff reviewed the medication schedule with the patient. Case management arranged transport home. The dose of Metformin was changed during admission. Spironolactone was stopped because of low blood pressure.\n\nDischarge Medications:\nMetformin 1000 mg PO BID - CHANGED\n- Spironolactone 12.5mg PO QHS [STOPPED]\n• Furosemide 40 mg PO daily (STOPPED)\n4) Aspirin 81 mg PO QHS (NEW)\n- Sertraline 100mg PO QHS\n6. Amlodipine 5 mg PO BID (CHANGED)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Heart failure nurse phone call in 14 days.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Take your medicines as listed. Return to the emergency department if you have severe shortness of breath or chest pain.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Metformin",
+     "status": "CHANGED",
+     "dose": "1000 mg",
+     "format": "dash_status"
+    },
+    {
+     "name": "Spironolactone",
+     "status": "STOPPED",
+     "dose": "12.5 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Furosemide",
+     "status": "STOPPED",
+     "dose": "40 mg",
+     "format": "bullet_char"
+    },
+    {
+     "name": "Aspirin",
+     "status": "NEW",
+     "dose": "81 mg",
+     "format": "paren_number"
+    },
+    {
+     "name": "Sertraline",
+     "status": "UNSPECIFIED",
+     "dose": "100 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Amlodipine",
+     "status": "CHANGED",
+     "dose": "5 mg",
+     "format": "numbered"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Aspirin was started during admission.",
+    "The dose of Amlodipine was changed during admission.",
+    "Furosemide was stopped because of low blood pressure.",
+    "He was discharged home in stable condition.",
+    "Creatinine rose to 1.6 and returned to baseline before discharge.",
+    "Nursing staff reviewed the medication schedule with the patient.",
+    "Case management arranged transport home.",
+    "The dose of Metformin was changed during admission.",
+    "Spironolactone was stopped because of low blood pressure."
+   ],
+   "course_key_idx": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    9
+   ],
+   "follow_up": [
+    "Heart failure nurse phone call in 14 days."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Return to the emergency department if you have severe shortness of breath or chest pain."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_14",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 14)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. Metformin was started during admission. CT of the abdomen showed no acute findings. Social history was reviewed with the family. Diet was advanced as tolerated. Her pain resolved and she tolerated a regular diet. Spironolactone was stopped because of low blood pressure.\n\nDischarge Medications:\n- Aspirin 81mg PO TID\n• Metformin 500 mg PO QHS (NEW)\n- Spironolactone 12.5mg PO TID [STOPPED]\n4. Atorvastatin 20 mg PO QHS\n5) Sertraline 50 mg PO daily (CONTINUE)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Repeat chest X-ray in 3 weeks.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Return to the emergency department if you have severe shortness of breath or chest pain. Bring your emergency contact list to every appointment. Call your doctor if your weight increases by more than 3 pounds in one day.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Aspirin",
+     "status": "UNSPECIFIED",
+     "dose": "81 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Metformin",
+     "status": "NEW",
+     "dose": "500 mg",
+     "format": "bullet_char"
+    },
+    {
+     "name": "Spironolactone",
+     "status": "STOPPED",
+     "dose": "12.5 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Atorvastatin",
+     "status": "UNSPECIFIED",
+     "dose": "20 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Sertraline",
+     "status": "CONTINUE",
+     "dose": "50 mg",
+     "format": "paren_number"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Metformin was started during admission.",
+    "CT of the abdomen showed no acute findings.",
+    "Social history was reviewed with the family.",
+    "Diet was advanced as tolerated.",
+    "Her pain resolved and she tolerated a regular diet.",
+    "Spironolactone was stopped because of low blood pressure."
+   ],
+   "course_key_idx": [
+    1,
+    2,
+    5,
+    6
+   ],
+   "follow_up": [
+    "Repeat chest X-ray in 3 weeks."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Call your doctor if your weight increases by more than 3 pounds in one day.",
+    "Return to the emergency department if you have severe shortness of breath or chest pain."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_15",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 15)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHOSPITAL COURSE: A patient presented with worsening symptoms over several days. Nursing staff reviewed the medication schedule with the patient. He was seen by physical therapy. The dose of Apixaban was changed during admission. Blood cultures were drawn on admission. Her pain resolved and she tolerated a regular diet. Lisinopril was stopped because of low blood pressure. Aspirin was stopped because of low blood pressure. She presented to the unit calm and cooperative.\n\nDischarge Medications:\n1. Apixaban 2.5 mg PO QHS (CHANGED)\n2. Aspirin 81 mg PO TID (STOPPED)\n3. Spironolactone 25 mg PO TID (CONTINUE)\n• Lisinopril 2.5 mg PO BID (STOPPED)\n\nAllergies: Penicillin (rash).\n\nFollowup Instructions: Repeat chest X-ray in 14 weeks. Primary care in 3 days with repeat basic metabolic panel.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Call your doctor if your weight increases by more than 3 pounds in one day. Bring your emergency contact list to every appointment. Return to the emergency department if you have severe shortness of breath or chest pain.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Apixaban",
+     "status": "CHANGED",
+     "dose": "2.5 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Aspirin",
+     "status": "STOPPED",
+     "dose": "81 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Spironolactone",
+     "status": "CONTINUE",
+     "dose": "25 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Lisinopril",
+     "status": "STOPPED",
+     "dose": "2.5 mg",
+     "format": "bullet_char"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Nursing staff reviewed the medication schedule with the patient.",
+    "He was seen by physical therapy.",
+    "The dose of Apixaban was changed during admission.",
+    "Blood cultures were drawn on admission.",
+    "Her pain resolved and she tolerated a regular diet.",
+    "Lisinopril was stopped because of low blood pressure.",
+    "Aspirin was stopped because of low blood pressure.",
+    "She presented to the unit calm and cooperative."
+   ],
+   "course_key_idx": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "follow_up": [
+    "Repeat chest X-ray in 14 weeks.",
+    "Primary care in 3 days with repeat basic metabolic panel."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Return to the emergency department if you have severe shortness of breath or chest pain.",
+    "Call your doctor if your weight increases by more than 3 pounds in one day."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "HOSPITAL COURSE",
+    "follow": "Followup Instructions",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_16",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 16)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nBrief Hospital Course: A patient presented with worsening symptoms over several days. Blood cultures were drawn on admission. Furosemide was stopped because of low blood pressure. Diet was advanced as tolerated. She presented to the unit calm and cooperative. The dose of Sertraline was changed during admission. Her pain resolved and she tolerated a regular diet.\n\nDischarge Meds:\n1) Spironolactone 25 mg PO daily\n2. warfarin 2 mg PO QHS\n3) Furosemide 40 mg PO BID (STOPPED)\n4. Metformin 1000-2000 mg PO TID\n5. Sertraline 100 mg PO TID (CHANGED)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Primary care in 3 days with repeat basic metabolic panel. Cardiology clinic in 14 weeks. Heart failure nurse phone call in 2 days.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Seek help right away if you faint or have a fever above 101. Weigh yourself every morning. Return to the emergency department if you have severe shortness of breath or chest pain.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Spironolactone",
+     "status": "UNSPECIFIED",
+     "dose": "25 mg",
+     "format": "paren_number"
+    },
+    {
+     "name": "Warfarin",
+     "status": "UNSPECIFIED",
+     "dose": "2 mg",
+     "format": "lowercase"
+    },
+    {
+     "name": "Furosemide",
+     "status": "STOPPED",
+     "dose": "40 mg",
+     "format": "paren_number"
+    },
+    {
+     "name": "Metformin",
+     "status": "UNSPECIFIED",
+     "dose": null,
+     "format": "dose_range"
+    },
+    {
+     "name": "Sertraline",
+     "status": "CHANGED",
+     "dose": "100 mg",
+     "format": "numbered"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Blood cultures were drawn on admission.",
+    "Furosemide was stopped because of low blood pressure.",
+    "Diet was advanced as tolerated.",
+    "She presented to the unit calm and cooperative.",
+    "The dose of Sertraline was changed during admission.",
+    "Her pain resolved and she tolerated a regular diet."
+   ],
+   "course_key_idx": [
+    1,
+    2,
+    5,
+    6
+   ],
+   "follow_up": [
+    "Primary care in 3 days with repeat basic metabolic panel.",
+    "Cardiology clinic in 14 weeks.",
+    "Heart failure nurse phone call in 2 days."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Seek help right away if you faint or have a fever above 101.",
+    "Return to the emergency department if you have severe shortness of breath or chest pain."
+   ],
+   "header_variants": {
+    "meds": "Discharge Meds",
+    "course": "Brief Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_17",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 17)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nBrief Hospital Course: A patient presented with worsening symptoms over several days. Diet was advanced as tolerated. Symptoms improved and he was weaned to room air. She presented to the unit calm and cooperative. Carvedilol was stopped because of low blood pressure. CT of the abdomen showed no acute findings. The dose of Atorvastatin was changed during admission. Warfarin was stopped because of low blood pressure. Amlodipine was started during admission.\n\ndischarge medications:\n1. Warfarin 5 mg PO TID (STOPPED)\n2. Carvedilol 12.5 mg PO BID (STOPPED)\n• Atorvastatin 20 mg PO BID (CHANGED)\n4. Amlodipine 5-10 mg PO BID (NEW)\n5. Lisinopril 2.5 mg PO QHS (CONTINUE)\n6. Apixaban 2.5 mg PO TID (CONTINUE)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Primary care in 3 days with repeat basic metabolic panel. Repeat chest X-ray in 2 weeks. Cardiology clinic in 7 weeks.\n\nPending Results: Pathology from biopsy pending.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Weigh yourself every morning. Return to the emergency department if you have severe shortness of breath or chest pain. Take your medicines as listed.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions",
+    "Pending Results"
+   ],
+   "medications": [
+    {
+     "name": "Warfarin",
+     "status": "STOPPED",
+     "dose": "5 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Carvedilol",
+     "status": "STOPPED",
+     "dose": "12.5 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Atorvastatin",
+     "status": "CHANGED",
+     "dose": "20 mg",
+     "format": "bullet_char"
+    },
+    {
+     "name": "Amlodipine",
+     "status": "NEW",
+     "dose": null,
+     "format": "dose_range"
+    },
+    {
+     "name": "Lisinopril",
+     "status": "CONTINUE",
+     "dose": "2.5 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Apixaban",
+     "status": "CONTINUE",
+     "dose": "2.5 mg",
+     "format": "numbered"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Diet was advanced as tolerated.",
+    "Symptoms improved and he was weaned to room air.",
+    "She presented to the unit calm and cooperative.",
+    "Carvedilol was stopped because of low blood pressure.",
+    "CT of the abdomen showed no acute findings.",
+    "The dose of Atorvastatin was changed during admission.",
+    "Warfarin was stopped because of low blood pressure.",
+    "Amlodipine was started during admission."
+   ],
+   "course_key_idx": [
+    2,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "follow_up": [
+    "Primary care in 3 days with repeat basic metabolic panel.",
+    "Repeat chest X-ray in 2 weeks.",
+    "Cardiology clinic in 7 weeks."
+   ],
+   "has_pending": true,
+   "warnings": [
+    "Return to the emergency department if you have severe shortness of breath or chest pain."
+   ],
+   "header_variants": {
+    "meds": "discharge medications",
+    "course": "Brief Hospital Course",
+    "follow": "Follow-up",
+    "pending": "Pending Results"
+   }
+  }
+ },
+ {
+  "id": "note_18",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 18)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nBrief Hospital Course: A patient presented with worsening symptoms over several days. Case management arranged transport home. Aspirin was stopped because of low blood pressure. Atorvastatin was started during admission. He was discharged home in stable condition. Echocardiogram showed an ejection fraction of 35 percent. Furosemide was started during admission. He was seen by physical therapy. Nursing staff reviewed the medication schedule with the patient.\n\nDischarge Medications:\n1) Atorvastatin 80 mg PO BID (NEW)\n- Furosemide 80mg PO TID [NEW]\n- Aspirin 81mg PO daily [STOPPED]\n\nAllergies: Penicillin (rash).\n\nFollow-up: Cardiology clinic in 2 weeks. Repeat chest X-ray in 2 weeks.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Return to the emergency department if you have severe shortness of breath or chest pain. Weigh yourself every morning. Call your doctor if your weight increases by more than 3 pounds in one day.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Atorvastatin",
+     "status": "NEW",
+     "dose": "80 mg",
+     "format": "paren_number"
+    },
+    {
+     "name": "Furosemide",
+     "status": "NEW",
+     "dose": "80 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Aspirin",
+     "status": "STOPPED",
+     "dose": "81 mg",
+     "format": "bracket"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Case management arranged transport home.",
+    "Aspirin was stopped because of low blood pressure.",
+    "Atorvastatin was started during admission.",
+    "He was discharged home in stable condition.",
+    "Echocardiogram showed an ejection fraction of 35 percent.",
+    "Furosemide was started during admission.",
+    "He was seen by physical therapy.",
+    "Nursing staff reviewed the medication schedule with the patient."
+   ],
+   "course_key_idx": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "follow_up": [
+    "Cardiology clinic in 2 weeks.",
+    "Repeat chest X-ray in 2 weeks."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Call your doctor if your weight increases by more than 3 pounds in one day.",
+    "Return to the emergency department if you have severe shortness of breath or chest pain."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Brief Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_19",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 19)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. He was seen by physical therapy. Symptoms improved and he was weaned to room air. Blood cultures were drawn on admission. The dose of Metoprolol succinate was changed during admission. The dose of Sertraline was changed during admission. Nursing staff reviewed the medication schedule with the patient. The dose of Spironolactone was changed during admission. Warfarin was started during admission.\n\nDischarge Medications:\n1. Sertraline 50-100 mg PO daily (CHANGED)\n2) Amlodipine 5 mg PO BID (CONTINUE)\n3. Metoprolol succinate 50 mg PO QHS (CHANGED)\n4. warfarin 5 mg PO daily (NEW)\nSpironolactone 12.5 mg PO BID - CHANGED\n\nAllergies: Penicillin (rash).\n\nFollow-up: Primary care in 7 days with repeat basic metabolic panel.\n\nPending Results: Pathology from biopsy pending.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Seek help right away if you faint or have a fever above 101. Take your medicines as listed. Bring your emergency contact list to every appointment. Call your doctor if your weight increases by more than 3 pounds in one day.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions",
+    "Pending Results"
+   ],
+   "medications": [
+    {
+     "name": "Sertraline",
+     "status": "CHANGED",
+     "dose": null,
+     "format": "dose_range"
+    },
+    {
+     "name": "Amlodipine",
+     "status": "CONTINUE",
+     "dose": "5 mg",
+     "format": "paren_number"
+    },
+    {
+     "name": "Metoprolol succinate",
+     "status": "CHANGED",
+     "dose": "50 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Warfarin",
+     "status": "NEW",
+     "dose": "5 mg",
+     "format": "lowercase"
+    },
+    {
+     "name": "Spironolactone",
+     "status": "CHANGED",
+     "dose": "12.5 mg",
+     "format": "dash_status"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "He was seen by physical therapy.",
+    "Symptoms improved and he was weaned to room air.",
+    "Blood cultures were drawn on admission.",
+    "The dose of Metoprolol succinate was changed during admission.",
+    "The dose of Sertraline was changed during admission.",
+    "Nursing staff reviewed the medication schedule with the patient.",
+    "The dose of Spironolactone was changed during admission.",
+    "Warfarin was started during admission."
+   ],
+   "course_key_idx": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8
+   ],
+   "follow_up": [
+    "Primary care in 7 days with repeat basic metabolic panel."
+   ],
+   "has_pending": true,
+   "warnings": [
+    "Seek help right away if you faint or have a fever above 101.",
+    "Call your doctor if your weight increases by more than 3 pounds in one day."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": "Pending Results"
+   }
+  }
+ },
+ {
+  "id": "note_20",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 20)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. Diet was advanced as tolerated. Social history was reviewed with the family. Aspirin was started during admission. Chest X-ray showed pulmonary congestion. Her pain resolved and she tolerated a regular diet. The dose of Apixaban was changed during admission. Metoprolol succinate was started during admission. She presented to the unit calm and cooperative.\n\nDischarge Medications:\n1. Atorvastatin 80 mg PO QHS\n- Aspirin 81mg PO daily [NEW]\n3) Warfarin 2 mg PO daily\n4) Carvedilol 3.125 mg PO daily (CONTINUE)\n5. Metoprolol succinate 25-50 mg PO QHS (NEW)\n6) Apixaban 5 mg PO BID (CHANGED)\n\nAllergies: Penicillin (rash).\n\nFollowup Instructions: Cardiology clinic in 2 weeks. Repeat chest X-ray in 3 weeks. Heart failure nurse phone call in 3 days.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Call your doctor if your weight increases by more than 3 pounds in one day. Bring your emergency contact list to every appointment. Follow a 2 gram sodium diet. Seek help right away if you faint or have a fever above 101.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Atorvastatin",
+     "status": "UNSPECIFIED",
+     "dose": "80 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Aspirin",
+     "status": "NEW",
+     "dose": "81 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Warfarin",
+     "status": "UNSPECIFIED",
+     "dose": "2 mg",
+     "format": "paren_number"
+    },
+    {
+     "name": "Carvedilol",
+     "status": "CONTINUE",
+     "dose": "3.125 mg",
+     "format": "paren_number"
+    },
+    {
+     "name": "Metoprolol succinate",
+     "status": "NEW",
+     "dose": null,
+     "format": "dose_range"
+    },
+    {
+     "name": "Apixaban",
+     "status": "CHANGED",
+     "dose": "5 mg",
+     "format": "paren_number"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Diet was advanced as tolerated.",
+    "Social history was reviewed with the family.",
+    "Aspirin was started during admission.",
+    "Chest X-ray showed pulmonary congestion.",
+    "Her pain resolved and she tolerated a regular diet.",
+    "The dose of Apixaban was changed during admission.",
+    "Metoprolol succinate was started during admission.",
+    "She presented to the unit calm and cooperative."
+   ],
+   "course_key_idx": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "follow_up": [
+    "Cardiology clinic in 2 weeks.",
+    "Repeat chest X-ray in 3 weeks.",
+    "Heart failure nurse phone call in 3 days."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Seek help right away if you faint or have a fever above 101.",
+    "Call your doctor if your weight increases by more than 3 pounds in one day."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Hospital Course",
+    "follow": "Followup Instructions",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_21",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 21)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. Metformin was stopped because of low blood pressure. Amlodipine was stopped because of low blood pressure. Case management arranged transport home. Diet was advanced as tolerated. Chest X-ray showed pulmonary congestion. He was discharged home in stable condition. Apixaban was stopped because of low blood pressure.\n\nDischarge Medications:\n1. Metformin 1000 mg PO BID (STOPPED)\n- Amlodipine 5mg PO BID [STOPPED]\n3. Apixaban 2.5 mg PO TID (STOPPED)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Cardiology clinic in 14 weeks.\n\nPending Results: Pathology from biopsy pending.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Return to the emergency department if you have severe shortness of breath or chest pain. Weigh yourself every morning.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions",
+    "Pending Results"
+   ],
+   "medications": [
+    {
+     "name": "Metformin",
+     "status": "STOPPED",
+     "dose": "1000 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Amlodipine",
+     "status": "STOPPED",
+     "dose": "5 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Apixaban",
+     "status": "STOPPED",
+     "dose": "2.5 mg",
+     "format": "numbered"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Metformin was stopped because of low blood pressure.",
+    "Amlodipine was stopped because of low blood pressure.",
+    "Case management arranged transport home.",
+    "Diet was advanced as tolerated.",
+    "Chest X-ray showed pulmonary congestion.",
+    "He was discharged home in stable condition.",
+    "Apixaban was stopped because of low blood pressure."
+   ],
+   "course_key_idx": [
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "follow_up": [
+    "Cardiology clinic in 14 weeks."
+   ],
+   "has_pending": true,
+   "warnings": [
+    "Return to the emergency department if you have severe shortness of breath or chest pain."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": "Pending Results"
+   }
+  }
+ },
+ {
+  "id": "note_22",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 22)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. Nursing staff reviewed the medication schedule with the patient. He was discharged home in stable condition. Warfarin was stopped because of low blood pressure. Diet was advanced as tolerated. Chest X-ray showed pulmonary congestion.\n\nDISCHARGE MEDICATIONS:\n1) Atorvastatin 20 mg PO BID\n2. Spironolactone 25 mg PO TID\n3. Warfarin 5 mg PO TID (STOPPED)\n• Aspirin 81 mg PO daily (CONTINUE)\n\nAllergies: Penicillin (rash).\n\nFollowup Instructions: Cardiology clinic in 3 weeks.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Follow a 2 gram sodium diet. Return to the emergency department if you have severe shortness of breath or chest pain. Weigh yourself every morning. Seek help right away if you faint or have a fever above 101.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Atorvastatin",
+     "status": "UNSPECIFIED",
+     "dose": "20 mg",
+     "format": "paren_number"
+    },
+    {
+     "name": "Spironolactone",
+     "status": "UNSPECIFIED",
+     "dose": "25 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Warfarin",
+     "status": "STOPPED",
+     "dose": "5 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Aspirin",
+     "status": "CONTINUE",
+     "dose": "81 mg",
+     "format": "bullet_char"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Nursing staff reviewed the medication schedule with the patient.",
+    "He was discharged home in stable condition.",
+    "Warfarin was stopped because of low blood pressure.",
+    "Diet was advanced as tolerated.",
+    "Chest X-ray showed pulmonary congestion."
+   ],
+   "course_key_idx": [
+    2,
+    3,
+    5
+   ],
+   "follow_up": [
+    "Cardiology clinic in 3 weeks."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Seek help right away if you faint or have a fever above 101.",
+    "Return to the emergency department if you have severe shortness of breath or chest pain."
+   ],
+   "header_variants": {
+    "meds": "DISCHARGE MEDICATIONS",
+    "course": "Hospital Course",
+    "follow": "Followup Instructions",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_23",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 23)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. Social history was reviewed with the family. Aspirin was stopped because of low blood pressure. Chest X-ray showed pulmonary congestion. Carvedilol was started during admission. The dose of Lisinopril was changed during admission. She presented to the unit calm and cooperative. Atorvastatin was stopped because of low blood pressure. Her pain resolved and she tolerated a regular diet. Metoprolol succinate was started during admission.\n\nDischarge Medications:\n1. Lisinopril 10 mg PO TID (CHANGED)\nCarvedilol 12.5 mg PO QHS - NEW\n3. Aspirin 81-162 mg PO BID (STOPPED)\n• Metoprolol succinate 25 mg PO BID (NEW)\n- Atorvastatin 20mg PO BID [STOPPED]\nFurosemide 40 mg PO daily - CONTINUE\n\nAllergies: Penicillin (rash).\n\nFollow-up: Primary care in 2 days with repeat basic metabolic panel.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Weigh yourself every morning. Call your doctor if your weight increases by more than 3 pounds in one day.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Lisinopril",
+     "status": "CHANGED",
+     "dose": "10 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Carvedilol",
+     "status": "NEW",
+     "dose": "12.5 mg",
+     "format": "dash_status"
+    },
+    {
+     "name": "Aspirin",
+     "status": "STOPPED",
+     "dose": null,
+     "format": "dose_range"
+    },
+    {
+     "name": "Metoprolol succinate",
+     "status": "NEW",
+     "dose": "25 mg",
+     "format": "bullet_char"
+    },
+    {
+     "name": "Atorvastatin",
+     "status": "STOPPED",
+     "dose": "20 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Furosemide",
+     "status": "CONTINUE",
+     "dose": "40 mg",
+     "format": "dash_status"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Social history was reviewed with the family.",
+    "Aspirin was stopped because of low blood pressure.",
+    "Chest X-ray showed pulmonary congestion.",
+    "Carvedilol was started during admission.",
+    "The dose of Lisinopril was changed during admission.",
+    "She presented to the unit calm and cooperative.",
+    "Atorvastatin was stopped because of low blood pressure.",
+    "Her pain resolved and she tolerated a regular diet.",
+    "Metoprolol succinate was started during admission."
+   ],
+   "course_key_idx": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9
+   ],
+   "follow_up": [
+    "Primary care in 2 days with repeat basic metabolic panel."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Call your doctor if your weight increases by more than 3 pounds in one day."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_24",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 24)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nBrief Hospital Course: A patient presented with worsening symptoms over several days. Her pain resolved and she tolerated a regular diet. Echocardiogram showed an ejection fraction of 35 percent. The dose of Warfarin was changed during admission. He was seen by physical therapy. Lisinopril was started during admission. Social history was reviewed with the family. Spironolactone was stopped because of low blood pressure. Nursing staff reviewed the medication schedule with the patient.\n\nDISCHARGE MEDICATIONS:\n1) Lisinopril 5 mg PO QHS (NEW)\n2. Warfarin 2 mg PO daily (CHANGED)\n3. Spironolactone 12.5 mg PO BID (STOPPED)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Primary care in 2 days with repeat basic metabolic panel. Cardiology clinic in 14 weeks.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Weigh yourself every morning. Call your doctor if your weight increases by more than 3 pounds in one day. Take your medicines as listed.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Lisinopril",
+     "status": "NEW",
+     "dose": "5 mg",
+     "format": "paren_number"
+    },
+    {
+     "name": "Warfarin",
+     "status": "CHANGED",
+     "dose": "2 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Spironolactone",
+     "status": "STOPPED",
+     "dose": "12.5 mg",
+     "format": "numbered"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Her pain resolved and she tolerated a regular diet.",
+    "Echocardiogram showed an ejection fraction of 35 percent.",
+    "The dose of Warfarin was changed during admission.",
+    "He was seen by physical therapy.",
+    "Lisinopril was started during admission.",
+    "Social history was reviewed with the family.",
+    "Spironolactone was stopped because of low blood pressure.",
+    "Nursing staff reviewed the medication schedule with the patient."
+   ],
+   "course_key_idx": [
+    1,
+    2,
+    3,
+    5,
+    7
+   ],
+   "follow_up": [
+    "Primary care in 2 days with repeat basic metabolic panel.",
+    "Cardiology clinic in 14 weeks."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Call your doctor if your weight increases by more than 3 pounds in one day."
+   ],
+   "header_variants": {
+    "meds": "DISCHARGE MEDICATIONS",
+    "course": "Brief Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_25",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 25)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. Diet was advanced as tolerated. Metformin was started during admission. Her pain resolved and she tolerated a regular diet. Amlodipine was stopped because of low blood pressure. Echocardiogram showed an ejection fraction of 35 percent. The dose of Atorvastatin was changed during admission. Case management arranged transport home. Sertraline was stopped because of low blood pressure. She presented to the unit calm and cooperative.\n\nDischarge Medications:\n1. furosemide 40 mg PO BID\n- Amlodipine 5mg PO BID [STOPPED]\n3. Atorvastatin 40 mg PO BID (CHANGED)\n4. Metformin 500-1000 mg PO daily (NEW)\n- Sertraline 100mg PO QHS [STOPPED]\n6. Aspirin 81 mg PO BID (CONTINUE)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Cardiology clinic in 3 weeks. Repeat chest X-ray in 14 weeks. Heart failure nurse phone call in 14 days.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Take your medicines as listed. Seek help right away if you faint or have a fever above 101. Return to the emergency department if you have severe shortness of breath or chest pain.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Furosemide",
+     "status": "UNSPECIFIED",
+     "dose": "40 mg",
+     "format": "lowercase"
+    },
+    {
+     "name": "Amlodipine",
+     "status": "STOPPED",
+     "dose": "5 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Atorvastatin",
+     "status": "CHANGED",
+     "dose": "40 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Metformin",
+     "status": "NEW",
+     "dose": null,
+     "format": "dose_range"
+    },
+    {
+     "name": "Sertraline",
+     "status": "STOPPED",
+     "dose": "100 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Aspirin",
+     "status": "CONTINUE",
+     "dose": "81 mg",
+     "format": "numbered"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Diet was advanced as tolerated.",
+    "Metformin was started during admission.",
+    "Her pain resolved and she tolerated a regular diet.",
+    "Amlodipine was stopped because of low blood pressure.",
+    "Echocardiogram showed an ejection fraction of 35 percent.",
+    "The dose of Atorvastatin was changed during admission.",
+    "Case management arranged transport home.",
+    "Sertraline was stopped because of low blood pressure.",
+    "She presented to the unit calm and cooperative."
+   ],
+   "course_key_idx": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    8
+   ],
+   "follow_up": [
+    "Cardiology clinic in 3 weeks.",
+    "Repeat chest X-ray in 14 weeks.",
+    "Heart failure nurse phone call in 14 days."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Seek help right away if you faint or have a fever above 101.",
+    "Return to the emergency department if you have severe shortness of breath or chest pain."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_26",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 26)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. Spironolactone was stopped because of low blood pressure. Sertraline was stopped because of low blood pressure. He was seen by physical therapy. The dose of Atorvastatin was changed during admission. Echocardiogram showed an ejection fraction of 35 percent. Metoprolol succinate was started during admission. Symptoms improved and he was weaned to room air. She presented to the unit calm and cooperative. Nursing staff reviewed the medication schedule with the patient.\n\nDischarge Medications:\n1. Sertraline 100 mg PO BID (STOPPED)\n2. metoprolol succinate 50 mg PO BID (NEW)\n3) Atorvastatin 80 mg PO TID (CHANGED)\n4. spironolactone 25 mg PO daily (STOPPED)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Heart failure nurse phone call in 14 days.\n\nPending Results: Final blood culture report pending at discharge.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Follow a 2 gram sodium diet. Call your doctor if your weight increases by more than 3 pounds in one day. Take your medicines as listed.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions",
+    "Pending Results"
+   ],
+   "medications": [
+    {
+     "name": "Sertraline",
+     "status": "STOPPED",
+     "dose": "100 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Metoprolol succinate",
+     "status": "NEW",
+     "dose": "50 mg",
+     "format": "lowercase"
+    },
+    {
+     "name": "Atorvastatin",
+     "status": "CHANGED",
+     "dose": "80 mg",
+     "format": "paren_number"
+    },
+    {
+     "name": "Spironolactone",
+     "status": "STOPPED",
+     "dose": "25 mg",
+     "format": "lowercase"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Spironolactone was stopped because of low blood pressure.",
+    "Sertraline was stopped because of low blood pressure.",
+    "He was seen by physical therapy.",
+    "The dose of Atorvastatin was changed during admission.",
+    "Echocardiogram showed an ejection fraction of 35 percent.",
+    "Metoprolol succinate was started during admission.",
+    "Symptoms improved and he was weaned to room air.",
+    "She presented to the unit calm and cooperative.",
+    "Nursing staff reviewed the medication schedule with the patient."
+   ],
+   "course_key_idx": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "follow_up": [
+    "Heart failure nurse phone call in 14 days."
+   ],
+   "has_pending": true,
+   "warnings": [
+    "Call your doctor if your weight increases by more than 3 pounds in one day."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": "Pending Results"
+   }
+  }
+ },
+ {
+  "id": "note_27",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 27)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. Apixaban was started during admission. She presented to the unit calm and cooperative. Case management arranged transport home. Sertraline was stopped because of low blood pressure. Metformin was started during admission. Her pain resolved and she tolerated a regular diet. Metoprolol succinate was stopped because of low blood pressure. Atorvastatin was started during admission. CT of the abdomen showed no acute findings.\n\nDischarge Meds:\n- Atorvastatin 80mg PO BID [NEW]\n- Apixaban 5mg PO daily [NEW]\n3. Metoprolol succinate 25 mg PO BID (STOPPED)\n- Metformin 1000mg PO BID [NEW]\n5. carvedilol 12.5 mg PO TID (CONTINUE)\n6. Sertraline 100-200 mg PO BID (STOPPED)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Repeat chest X-ray in 14 weeks.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Seek help right away if you faint or have a fever above 101. Follow a 2 gram sodium diet. Call your doctor if your weight increases by more than 3 pounds in one day.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Atorvastatin",
+     "status": "NEW",
+     "dose": "80 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Apixaban",
+     "status": "NEW",
+     "dose": "5 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Metoprolol succinate",
+     "status": "STOPPED",
+     "dose": "25 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Metformin",
+     "status": "NEW",
+     "dose": "1000 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Carvedilol",
+     "status": "CONTINUE",
+     "dose": "12.5 mg",
+     "format": "lowercase"
+    },
+    {
+     "name": "Sertraline",
+     "status": "STOPPED",
+     "dose": null,
+     "format": "dose_range"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Apixaban was started during admission.",
+    "She presented to the unit calm and cooperative.",
+    "Case management arranged transport home.",
+    "Sertraline was stopped because of low blood pressure.",
+    "Metformin was started during admission.",
+    "Her pain resolved and she tolerated a regular diet.",
+    "Metoprolol succinate was stopped because of low blood pressure.",
+    "Atorvastatin was started during admission.",
+    "CT of the abdomen showed no acute findings."
+   ],
+   "course_key_idx": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "follow_up": [
+    "Repeat chest X-ray in 14 weeks."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Seek help right away if you faint or have a fever above 101.",
+    "Call your doctor if your weight increases by more than 3 pounds in one day."
+   ],
+   "header_variants": {
+    "meds": "Discharge Meds",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_28",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 28)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. She presented to the unit calm and cooperative. Metoprolol succinate was stopped because of low blood pressure. Blood cultures were drawn on admission. Apixaban was started during admission. Symptoms improved and he was weaned to room air. The dose of Lisinopril was changed during admission. Social history was reviewed with the family.\n\nDISCHARGE MEDICATIONS:\n1) Aspirin 81 mg PO BID (CONTINUE)\n2. Atorvastatin 40 mg PO BID (CONTINUE)\n3. Metoprolol succinate 50 mg PO QHS (STOPPED)\n- Warfarin 5mg PO TID [CONTINUE]\n5. Lisinopril 10 mg PO QHS (CHANGED)\n6. Apixaban 5 mg PO TID (NEW)\n\nAllergies: Penicillin (rash).\n\nFollowup Instructions: Primary care in 7 days with repeat basic metabolic panel. Repeat chest X-ray in 7 weeks. Heart failure nurse phone call in 2 days.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Weigh yourself every morning. Take your medicines as listed. Return to the emergency department if you have severe shortness of breath or chest pain.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Aspirin",
+     "status": "CONTINUE",
+     "dose": "81 mg",
+     "format": "paren_number"
+    },
+    {
+     "name": "Atorvastatin",
+     "status": "CONTINUE",
+     "dose": "40 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Metoprolol succinate",
+     "status": "STOPPED",
+     "dose": "50 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Warfarin",
+     "status": "CONTINUE",
+     "dose": "5 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Lisinopril",
+     "status": "CHANGED",
+     "dose": "10 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Apixaban",
+     "status": "NEW",
+     "dose": "5 mg",
+     "format": "numbered"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "She presented to the unit calm and cooperative.",
+    "Metoprolol succinate was stopped because of low blood pressure.",
+    "Blood cultures were drawn on admission.",
+    "Apixaban was started during admission.",
+    "Symptoms improved and he was weaned to room air.",
+    "The dose of Lisinopril was changed during admission.",
+    "Social history was reviewed with the family."
+   ],
+   "course_key_idx": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "follow_up": [
+    "Primary care in 7 days with repeat basic metabolic panel.",
+    "Repeat chest X-ray in 7 weeks.",
+    "Heart failure nurse phone call in 2 days."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Return to the emergency department if you have severe shortness of breath or chest pain."
+   ],
+   "header_variants": {
+    "meds": "DISCHARGE MEDICATIONS",
+    "course": "Hospital Course",
+    "follow": "Followup Instructions",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_29",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 29)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. He was discharged home in stable condition. CT of the abdomen showed no acute findings. Diet was advanced as tolerated. Amlodipine was started during admission. Case management arranged transport home. Nursing staff reviewed the medication schedule with the patient.\n\nDischarge Medications:\nCarvedilol 3.125 mg PO QHS - CONTINUE\n2. Amlodipine 10 mg PO BID (NEW)\n3. Metformin 500 mg PO QHS (CONTINUE)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Repeat chest X-ray in 7 weeks. Heart failure nurse phone call in 14 days.\n\nResults Pending: Final blood culture report pending at discharge.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Return to the emergency department if you have severe shortness of breath or chest pain. Seek help right away if you faint or have a fever above 101. Take your medicines as listed.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions",
+    "Pending Results"
+   ],
+   "medications": [
+    {
+     "name": "Carvedilol",
+     "status": "CONTINUE",
+     "dose": "3.125 mg",
+     "format": "dash_status"
+    },
+    {
+     "name": "Amlodipine",
+     "status": "NEW",
+     "dose": "10 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Metformin",
+     "status": "CONTINUE",
+     "dose": "500 mg",
+     "format": "numbered"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "He was discharged home in stable condition.",
+    "CT of the abdomen showed no acute findings.",
+    "Diet was advanced as tolerated.",
+    "Amlodipine was started during admission.",
+    "Case management arranged transport home.",
+    "Nursing staff reviewed the medication schedule with the patient."
+   ],
+   "course_key_idx": [
+    1,
+    2,
+    4
+   ],
+   "follow_up": [
+    "Repeat chest X-ray in 7 weeks.",
+    "Heart failure nurse phone call in 14 days."
+   ],
+   "has_pending": true,
+   "warnings": [
+    "Seek help right away if you faint or have a fever above 101.",
+    "Return to the emergency department if you have severe shortness of breath or chest pain."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": "Results Pending"
+   }
+  }
+ },
+ {
+  "id": "note_30",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 30)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nBrief Hospital Course: A patient presented with worsening symptoms over several days. Atorvastatin was stopped because of low blood pressure. Case management arranged transport home. The dose of Spironolactone was changed during admission. Furosemide was started during admission. He was discharged home in stable condition. He was seen by physical therapy. The dose of Metoprolol succinate was changed during admission. Blood cultures were drawn on admission. She presented to the unit calm and cooperative.\n\nDISCHARGE MEDICATIONS:\n1. aspirin 81 mg PO TID\n2. Metoprolol succinate 50 mg PO TID (CHANGED)\n3. Furosemide 80 mg PO QHS (NEW)\n4. Atorvastatin 80 mg PO TID (STOPPED)\n5. Apixaban 2.5 mg PO TID (CONTINUE)\n6. spironolactone 25 mg PO daily (CHANGED)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Repeat chest X-ray in 2 weeks. Heart failure nurse phone call in 3 days. Primary care in 2 days with repeat basic metabolic panel.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Follow a 2 gram sodium diet. Return to the emergency department if you have severe shortness of breath or chest pain. Seek help right away if you faint or have a fever above 101.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Aspirin",
+     "status": "UNSPECIFIED",
+     "dose": "81 mg",
+     "format": "lowercase"
+    },
+    {
+     "name": "Metoprolol succinate",
+     "status": "CHANGED",
+     "dose": "50 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Furosemide",
+     "status": "NEW",
+     "dose": "80 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Atorvastatin",
+     "status": "STOPPED",
+     "dose": "80 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Apixaban",
+     "status": "CONTINUE",
+     "dose": "2.5 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Spironolactone",
+     "status": "CHANGED",
+     "dose": "25 mg",
+     "format": "lowercase"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Atorvastatin was stopped because of low blood pressure.",
+    "Case management arranged transport home.",
+    "The dose of Spironolactone was changed during admission.",
+    "Furosemide was started during admission.",
+    "He was discharged home in stable condition.",
+    "He was seen by physical therapy.",
+    "The dose of Metoprolol succinate was changed during admission.",
+    "Blood cultures were drawn on admission.",
+    "She presented to the unit calm and cooperative."
+   ],
+   "course_key_idx": [
+    1,
+    3,
+    4,
+    5,
+    7,
+    8
+   ],
+   "follow_up": [
+    "Repeat chest X-ray in 2 weeks.",
+    "Heart failure nurse phone call in 3 days.",
+    "Primary care in 2 days with repeat basic metabolic panel."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Seek help right away if you faint or have a fever above 101.",
+    "Return to the emergency department if you have severe shortness of breath or chest pain."
+   ],
+   "header_variants": {
+    "meds": "DISCHARGE MEDICATIONS",
+    "course": "Brief Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_31",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 31)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. Blood cultures were drawn on admission. Symptoms improved and he was weaned to room air. He was seen by physical therapy. Amlodipine was started during admission. Case management arranged transport home.\n\nDischarge Meds:\n1. Metformin 500 mg PO daily\n2) Amlodipine 5 mg PO QHS (NEW)\n3. Sertraline 100 mg PO QHS (CONTINUE)\nWarfarin 2 mg PO daily - CONTINUE\n\nAllergies: Penicillin (rash).\n\nFollow-up: Cardiology clinic in 2 weeks.\n\nPending Results: Final blood culture report pending at discharge.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Bring your emergency contact list to every appointment. Call your doctor if your weight increases by more than 3 pounds in one day.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions",
+    "Pending Results"
+   ],
+   "medications": [
+    {
+     "name": "Metformin",
+     "status": "UNSPECIFIED",
+     "dose": "500 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Amlodipine",
+     "status": "NEW",
+     "dose": "5 mg",
+     "format": "paren_number"
+    },
+    {
+     "name": "Sertraline",
+     "status": "CONTINUE",
+     "dose": "100 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Warfarin",
+     "status": "CONTINUE",
+     "dose": "2 mg",
+     "format": "dash_status"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Blood cultures were drawn on admission.",
+    "Symptoms improved and he was weaned to room air.",
+    "He was seen by physical therapy.",
+    "Amlodipine was started during admission.",
+    "Case management arranged transport home."
+   ],
+   "course_key_idx": [
+    1,
+    2,
+    4
+   ],
+   "follow_up": [
+    "Cardiology clinic in 2 weeks."
+   ],
+   "has_pending": true,
+   "warnings": [
+    "Call your doctor if your weight increases by more than 3 pounds in one day."
+   ],
+   "header_variants": {
+    "meds": "Discharge Meds",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": "Pending Results"
+   }
+  }
+ },
+ {
+  "id": "note_32",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 32)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. Symptoms improved and he was weaned to room air. Nursing staff reviewed the medication schedule with the patient. Amlodipine was stopped because of low blood pressure. She presented to the unit calm and cooperative. Creatinine rose to 1.6 and returned to baseline before discharge. Social history was reviewed with the family.\n\ndischarge medications:\n• Metformin 1000 mg PO daily (CONTINUE)\n2. Carvedilol 12.5 mg PO daily\nAmlodipine 5 mg PO QHS - STOPPED\n\nAllergies: Penicillin (rash).\n\nFollow-up: Cardiology clinic in 14 weeks. Heart failure nurse phone call in 14 days. Repeat chest X-ray in 14 weeks.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Seek help right away if you faint or have a fever above 101. Call your doctor if your weight increases by more than 3 pounds in one day. Take your medicines as listed.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Metformin",
+     "status": "CONTINUE",
+     "dose": "1000 mg",
+     "format": "bullet_char"
+    },
+    {
+     "name": "Carvedilol",
+     "status": "UNSPECIFIED",
+     "dose": "12.5 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Amlodipine",
+     "status": "STOPPED",
+     "dose": "5 mg",
+     "format": "dash_status"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Symptoms improved and he was weaned to room air.",
+    "Nursing staff reviewed the medication schedule with the patient.",
+    "Amlodipine was stopped because of low blood pressure.",
+    "She presented to the unit calm and cooperative.",
+    "Creatinine rose to 1.6 and returned to baseline before discharge.",
+    "Social history was reviewed with the family."
+   ],
+   "course_key_idx": [
+    1,
+    3,
+    5
+   ],
+   "follow_up": [
+    "Cardiology clinic in 14 weeks.",
+    "Heart failure nurse phone call in 14 days.",
+    "Repeat chest X-ray in 14 weeks."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Call your doctor if your weight increases by more than 3 pounds in one day.",
+    "Seek help right away if you faint or have a fever above 101."
+   ],
+   "header_variants": {
+    "meds": "discharge medications",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_33",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 33)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. The dose of Sertraline was changed during admission. She presented to the unit calm and cooperative. The dose of Carvedilol was changed during admission. Symptoms improved and he was weaned to room air. Blood cultures were drawn on admission. Social history was reviewed with the family. Apixaban was stopped because of low blood pressure.\n\nDischarge Medications:\n1. Apixaban 5 mg PO TID (STOPPED)\n2) Sertraline 50 mg PO daily (CHANGED)\n• Carvedilol 6.25 mg PO BID (CHANGED)\n4. Atorvastatin 40 mg PO QHS (CONTINUE)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Primary care in 14 days with repeat basic metabolic panel. Cardiology clinic in 2 weeks.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Bring your emergency contact list to every appointment. Return to the emergency department if you have severe shortness of breath or chest pain. Seek help right away if you faint or have a fever above 101. Take your medicines as listed.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Apixaban",
+     "status": "STOPPED",
+     "dose": "5 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Sertraline",
+     "status": "CHANGED",
+     "dose": "50 mg",
+     "format": "paren_number"
+    },
+    {
+     "name": "Carvedilol",
+     "status": "CHANGED",
+     "dose": "6.25 mg",
+     "format": "bullet_char"
+    },
+    {
+     "name": "Atorvastatin",
+     "status": "CONTINUE",
+     "dose": "40 mg",
+     "format": "numbered"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "The dose of Sertraline was changed during admission.",
+    "She presented to the unit calm and cooperative.",
+    "The dose of Carvedilol was changed during admission.",
+    "Symptoms improved and he was weaned to room air.",
+    "Blood cultures were drawn on admission.",
+    "Social history was reviewed with the family.",
+    "Apixaban was stopped because of low blood pressure."
+   ],
+   "course_key_idx": [
+    1,
+    3,
+    4,
+    5,
+    7
+   ],
+   "follow_up": [
+    "Primary care in 14 days with repeat basic metabolic panel.",
+    "Cardiology clinic in 2 weeks."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Return to the emergency department if you have severe shortness of breath or chest pain.",
+    "Seek help right away if you faint or have a fever above 101."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_34",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 34)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nBrief Hospital Course: A patient presented with worsening symptoms over several days. Symptoms improved and he was weaned to room air. Nursing staff reviewed the medication schedule with the patient. Echocardiogram showed an ejection fraction of 35 percent. Metoprolol succinate was started during admission. Diet was advanced as tolerated. Case management arranged transport home. Warfarin was started during admission. Spironolactone was stopped because of low blood pressure.\n\nDischarge Medications:\n- Warfarin 2mg PO daily [NEW]\n2. Sertraline 50 mg PO daily (CONTINUE)\n3. Spironolactone 25 mg PO daily (STOPPED)\n4. Apixaban 2.5 mg PO TID (CONTINUE)\n5) Metoprolol succinate 50 mg PO BID (NEW)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Primary care in 14 days with repeat basic metabolic panel. Heart failure nurse phone call in 2 days.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Take your medicines as listed. Follow a 2 gram sodium diet. Call your doctor if your weight increases by more than 3 pounds in one day.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Warfarin",
+     "status": "NEW",
+     "dose": "2 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Sertraline",
+     "status": "CONTINUE",
+     "dose": "50 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Spironolactone",
+     "status": "STOPPED",
+     "dose": "25 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Apixaban",
+     "status": "CONTINUE",
+     "dose": "2.5 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Metoprolol succinate",
+     "status": "NEW",
+     "dose": "50 mg",
+     "format": "paren_number"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Symptoms improved and he was weaned to room air.",
+    "Nursing staff reviewed the medication schedule with the patient.",
+    "Echocardiogram showed an ejection fraction of 35 percent.",
+    "Metoprolol succinate was started during admission.",
+    "Diet was advanced as tolerated.",
+    "Case management arranged transport home.",
+    "Warfarin was started during admission.",
+    "Spironolactone was stopped because of low blood pressure."
+   ],
+   "course_key_idx": [
+    1,
+    3,
+    4,
+    7,
+    8
+   ],
+   "follow_up": [
+    "Primary care in 14 days with repeat basic metabolic panel.",
+    "Heart failure nurse phone call in 2 days."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Call your doctor if your weight increases by more than 3 pounds in one day."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Brief Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_35",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 35)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. Her pain resolved and she tolerated a regular diet. Spironolactone was stopped because of low blood pressure. He was seen by physical therapy. Metoprolol succinate was started during admission. Furosemide was started during admission. Diet was advanced as tolerated. CT of the abdomen showed no acute findings.\n\nDischarge Meds:\n1. Metoprolol succinate 25 mg PO QHS (NEW)\n2) Furosemide 20 mg PO BID (NEW)\n3. Metformin 1000 mg PO TID (CONTINUE)\n4. Spironolactone 25 mg PO QHS (STOPPED)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Heart failure nurse phone call in 3 days.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Call your doctor if your weight increases by more than 3 pounds in one day. Weigh yourself every morning.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Metoprolol succinate",
+     "status": "NEW",
+     "dose": "25 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Furosemide",
+     "status": "NEW",
+     "dose": "20 mg",
+     "format": "paren_number"
+    },
+    {
+     "name": "Metformin",
+     "status": "CONTINUE",
+     "dose": "1000 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Spironolactone",
+     "status": "STOPPED",
+     "dose": "25 mg",
+     "format": "numbered"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Her pain resolved and she tolerated a regular diet.",
+    "Spironolactone was stopped because of low blood pressure.",
+    "He was seen by physical therapy.",
+    "Metoprolol succinate was started during admission.",
+    "Furosemide was started during admission.",
+    "Diet was advanced as tolerated.",
+    "CT of the abdomen showed no acute findings."
+   ],
+   "course_key_idx": [
+    1,
+    2,
+    4,
+    5,
+    7
+   ],
+   "follow_up": [
+    "Heart failure nurse phone call in 3 days."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Call your doctor if your weight increases by more than 3 pounds in one day."
+   ],
+   "header_variants": {
+    "meds": "Discharge Meds",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_36",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 36)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. Nursing staff reviewed the medication schedule with the patient. Social history was reviewed with the family. Diet was advanced as tolerated. Echocardiogram showed an ejection fraction of 35 percent. Symptoms improved and he was weaned to room air. Atorvastatin was stopped because of low blood pressure. The dose of Sertraline was changed during admission.\n\nDischarge Medications:\n1. Metoprolol succinate 100 mg PO BID (CONTINUE)\n2. Spironolactone 25 mg PO TID (CONTINUE)\n3. Atorvastatin 40 mg PO daily (STOPPED)\n4. Furosemide 40 mg PO daily (CONTINUE)\n• Sertraline 100 mg PO daily (CHANGED)\n\nAllergies: Penicillin (rash).\n\nFollowup Instructions: Heart failure nurse phone call in 3 days.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Bring your emergency contact list to every appointment. Follow a 2 gram sodium diet. Call your doctor if your weight increases by more than 3 pounds in one day.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Metoprolol succinate",
+     "status": "CONTINUE",
+     "dose": "100 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Spironolactone",
+     "status": "CONTINUE",
+     "dose": "25 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Atorvastatin",
+     "status": "STOPPED",
+     "dose": "40 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Furosemide",
+     "status": "CONTINUE",
+     "dose": "40 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Sertraline",
+     "status": "CHANGED",
+     "dose": "100 mg",
+     "format": "bullet_char"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Nursing staff reviewed the medication schedule with the patient.",
+    "Social history was reviewed with the family.",
+    "Diet was advanced as tolerated.",
+    "Echocardiogram showed an ejection fraction of 35 percent.",
+    "Symptoms improved and he was weaned to room air.",
+    "Atorvastatin was stopped because of low blood pressure.",
+    "The dose of Sertraline was changed during admission."
+   ],
+   "course_key_idx": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "follow_up": [
+    "Heart failure nurse phone call in 3 days."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Call your doctor if your weight increases by more than 3 pounds in one day."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Hospital Course",
+    "follow": "Followup Instructions",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_37",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 37)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nBrief Hospital Course: A patient presented with worsening symptoms over several days. Symptoms improved and he was weaned to room air. Blood cultures were drawn on admission. The dose of Metoprolol succinate was changed during admission. Case management arranged transport home. Atorvastatin was started during admission. Nursing staff reviewed the medication schedule with the patient. The dose of Amlodipine was changed during admission.\n\ndischarge medications:\n1. Metoprolol succinate 100 mg PO daily (CHANGED)\n2. Sertraline 100 mg PO BID (CONTINUE)\n3. Amlodipine 10 mg PO daily (CHANGED)\n4. Atorvastatin 80 mg PO TID (NEW)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Cardiology clinic in 7 weeks.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Bring your emergency contact list to every appointment. Call your doctor if your weight increases by more than 3 pounds in one day. Weigh yourself every morning.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Metoprolol succinate",
+     "status": "CHANGED",
+     "dose": "100 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Sertraline",
+     "status": "CONTINUE",
+     "dose": "100 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Amlodipine",
+     "status": "CHANGED",
+     "dose": "10 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Atorvastatin",
+     "status": "NEW",
+     "dose": "80 mg",
+     "format": "numbered"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Symptoms improved and he was weaned to room air.",
+    "Blood cultures were drawn on admission.",
+    "The dose of Metoprolol succinate was changed during admission.",
+    "Case management arranged transport home.",
+    "Atorvastatin was started during admission.",
+    "Nursing staff reviewed the medication schedule with the patient.",
+    "The dose of Amlodipine was changed during admission."
+   ],
+   "course_key_idx": [
+    1,
+    2,
+    3,
+    5,
+    7
+   ],
+   "follow_up": [
+    "Cardiology clinic in 7 weeks."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Call your doctor if your weight increases by more than 3 pounds in one day."
+   ],
+   "header_variants": {
+    "meds": "discharge medications",
+    "course": "Brief Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_38",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 38)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nBrief Hospital Course: A patient presented with worsening symptoms over several days. The dose of Furosemide was changed during admission. She presented to the unit calm and cooperative. Aspirin was started during admission. Case management arranged transport home. Symptoms improved and he was weaned to room air. Diet was advanced as tolerated. Metformin was started during admission. Chest X-ray showed pulmonary congestion.\n\nDischarge Medications:\n1. Warfarin 2-4 mg PO BID\n2. Furosemide 80 mg PO daily (CHANGED)\n3) Metformin 500 mg PO TID (NEW)\n4. lisinopril 2.5 mg PO daily (CONTINUE)\n5. Aspirin 81 mg PO daily (NEW)\n6) Atorvastatin 80 mg PO daily (CONTINUE)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Primary care in 14 days with repeat basic metabolic panel.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Call your doctor if your weight increases by more than 3 pounds in one day. Take your medicines as listed.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Warfarin",
+     "status": "UNSPECIFIED",
+     "dose": null,
+     "format": "dose_range"
+    },
+    {
+     "name": "Furosemide",
+     "status": "CHANGED",
+     "dose": "80 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Metformin",
+     "status": "NEW",
+     "dose": "500 mg",
+     "format": "paren_number"
+    },
+    {
+     "name": "Lisinopril",
+     "status": "CONTINUE",
+     "dose": "2.5 mg",
+     "format": "lowercase"
+    },
+    {
+     "name": "Aspirin",
+     "status": "NEW",
+     "dose": "81 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Atorvastatin",
+     "status": "CONTINUE",
+     "dose": "80 mg",
+     "format": "paren_number"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "The dose of Furosemide was changed during admission.",
+    "She presented to the unit calm and cooperative.",
+    "Aspirin was started during admission.",
+    "Case management arranged transport home.",
+    "Symptoms improved and he was weaned to room air.",
+    "Diet was advanced as tolerated.",
+    "Metformin was started during admission.",
+    "Chest X-ray showed pulmonary congestion."
+   ],
+   "course_key_idx": [
+    1,
+    3,
+    5,
+    7,
+    8
+   ],
+   "follow_up": [
+    "Primary care in 14 days with repeat basic metabolic panel."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Call your doctor if your weight increases by more than 3 pounds in one day."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Brief Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ },
+ {
+  "id": "note_39",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 39)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. Amlodipine was started during admission. Creatinine rose to 1.6 and returned to baseline before discharge. She presented to the unit calm and cooperative. Metoprolol succinate was stopped because of low blood pressure. Case management arranged transport home. He was seen by physical therapy. Furosemide was started during admission. The dose of Apixaban was changed during admission. Spironolactone was started during admission. Symptoms improved and he was weaned to room air.\n\nDischarge Meds:\n1. apixaban 5 mg PO daily (CHANGED)\n2. Amlodipine 5 mg PO QHS (NEW)\n- Furosemide 20mg PO QHS [NEW]\n• Spironolactone 25 mg PO daily (NEW)\n5. metoprolol succinate 25 mg PO daily (STOPPED)\n\nAllergies: Penicillin (rash).\n\nFollow-up: Primary care in 7 days with repeat basic metabolic panel.\n\nPending Results: Pathology from biopsy pending.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Call your doctor if your weight increases by more than 3 pounds in one day. Follow a 2 gram sodium diet.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions",
+    "Pending Results"
+   ],
+   "medications": [
+    {
+     "name": "Apixaban",
+     "status": "CHANGED",
+     "dose": "5 mg",
+     "format": "lowercase"
+    },
+    {
+     "name": "Amlodipine",
+     "status": "NEW",
+     "dose": "5 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Furosemide",
+     "status": "NEW",
+     "dose": "20 mg",
+     "format": "bracket"
+    },
+    {
+     "name": "Spironolactone",
+     "status": "NEW",
+     "dose": "25 mg",
+     "format": "bullet_char"
+    },
+    {
+     "name": "Metoprolol succinate",
+     "status": "STOPPED",
+     "dose": "25 mg",
+     "format": "lowercase"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Amlodipine was started during admission.",
+    "Creatinine rose to 1.6 and returned to baseline before discharge.",
+    "She presented to the unit calm and cooperative.",
+    "Metoprolol succinate was stopped because of low blood pressure.",
+    "Case management arranged transport home.",
+    "He was seen by physical therapy.",
+    "Furosemide was started during admission.",
+    "The dose of Apixaban was changed during admission.",
+    "Spironolactone was started during admission.",
+    "Symptoms improved and he was weaned to room air."
+   ],
+   "course_key_idx": [
+    1,
+    2,
+    4,
+    7,
+    8,
+    9,
+    10
+   ],
+   "follow_up": [
+    "Primary care in 7 days with repeat basic metabolic panel."
+   ],
+   "has_pending": true,
+   "warnings": [
+    "Call your doctor if your weight increases by more than 3 pounds in one day."
+   ],
+   "header_variants": {
+    "meds": "Discharge Meds",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": "Pending Results"
+   }
+  }
+ },
+ {
+  "id": "note_40",
+  "text": "DISCHARGE SUMMARY (SYNTHETIC 40)\n\nAdmission Date: 03/02/2025\nDischarge Date: 03/07/2025\n\nChief Complaint: Symptoms for several days.\nPrincipal Diagnosis: See hospital course.\n\nHospital Course: A patient presented with worsening symptoms over several days. Apixaban was stopped because of low blood pressure. Echocardiogram showed an ejection fraction of 35 percent. She presented to the unit calm and cooperative. He was discharged home in stable condition. Carvedilol was started during admission. Diet was advanced as tolerated.\n\nDischarge Medications:\n1. Warfarin 5 mg PO QHS (CONTINUE)\n2. Sertraline 50 mg PO BID\n3. Atorvastatin 80 mg PO BID\n4. Apixaban 5 mg PO BID (STOPPED)\n5. Carvedilol 6.25 mg PO daily (NEW)\n- Metformin 1000mg PO QHS [CONTINUE]\n\nAllergies: Penicillin (rash).\n\nFollow-up: Cardiology clinic in 7 weeks.\n\nDischarge Condition: Stable.\n\nDischarge Instructions: Take your medicines as listed. Seek help right away if you faint or have a fever above 101. Bring your emergency contact list to every appointment.",
+  "gold": {
+   "headers": [
+    "Admission Date",
+    "Discharge Date",
+    "Chief Complaint",
+    "Principal Diagnosis",
+    "Hospital Course",
+    "Discharge Medications",
+    "Allergies",
+    "Follow-up",
+    "Discharge Condition",
+    "Discharge Instructions"
+   ],
+   "medications": [
+    {
+     "name": "Warfarin",
+     "status": "CONTINUE",
+     "dose": "5 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Sertraline",
+     "status": "UNSPECIFIED",
+     "dose": "50 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Atorvastatin",
+     "status": "UNSPECIFIED",
+     "dose": "80 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Apixaban",
+     "status": "STOPPED",
+     "dose": "5 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Carvedilol",
+     "status": "NEW",
+     "dose": "6.25 mg",
+     "format": "numbered"
+    },
+    {
+     "name": "Metformin",
+     "status": "CONTINUE",
+     "dose": "1000 mg",
+     "format": "bracket"
+    }
+   ],
+   "course_sentences": [
+    "A patient presented with worsening symptoms over several days.",
+    "Apixaban was stopped because of low blood pressure.",
+    "Echocardiogram showed an ejection fraction of 35 percent.",
+    "She presented to the unit calm and cooperative.",
+    "He was discharged home in stable condition.",
+    "Carvedilol was started during admission.",
+    "Diet was advanced as tolerated."
+   ],
+   "course_key_idx": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "follow_up": [
+    "Cardiology clinic in 7 weeks."
+   ],
+   "has_pending": false,
+   "warnings": [
+    "Seek help right away if you faint or have a fever above 101."
+   ],
+   "header_variants": {
+    "meds": "Discharge Medications",
+    "course": "Hospital Course",
+    "follow": "Follow-up",
+    "pending": null
+   }
+  }
+ }
+]

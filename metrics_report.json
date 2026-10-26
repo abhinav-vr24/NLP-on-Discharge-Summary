@@ -1,0 +1,210 @@
+{
+ "n_notes": 40,
+ "n_medication_lines": 187,
+ "sections": {
+  "overall": {
+   "precision": 1.0,
+   "recall": 0.944,
+   "f1": 0.971,
+   "tp": 390,
+   "fp": 0,
+   "fn": 23
+  },
+  "recall_by_header": {
+   "Admission Date": 1.0,
+   "Allergies": 1.0,
+   "Chief Complaint": 1.0,
+   "Discharge Condition": 1.0,
+   "Discharge Date": 1.0,
+   "Discharge Instructions": 1.0,
+   "Discharge Medications": 0.85,
+   "Follow-up": 0.85,
+   "Hospital Course": 0.8,
+   "Pending Results": 0.769,
+   "Principal Diagnosis": 1.0
+  }
+ },
+ "medications": {
+  "name_only": {
+   "precision": 1.0,
+   "recall": 0.647,
+   "f1": 0.786,
+   "tp": 121,
+   "fp": 0,
+   "fn": 66
+  },
+  "name_and_status": {
+   "precision": 1.0,
+   "recall": 0.647,
+   "f1": 0.786,
+   "tp": 121,
+   "fp": 0,
+   "fn": 66
+  },
+  "changed_drugs": {
+   "precision": 1.0,
+   "recall": 0.642,
+   "f1": 0.782,
+   "tp": 79,
+   "fp": 0,
+   "fn": 44
+  },
+  "status_accuracy_when_found": 1.0,
+  "dose_accuracy_when_found": 1.0,
+  "recall_by_line_format": {
+   "bracket": 0.84,
+   "bullet_char": 0.0,
+   "dash_status": 0.923,
+   "dose_range": 0.0,
+   "lowercase": 0.714,
+   "numbered": 0.886,
+   "paren_number": 0.0
+  },
+  "line_counts_by_format": {
+   "bracket": 25,
+   "bullet_char": 13,
+   "dash_status": 13,
+   "dose_range": 12,
+   "lowercase": 14,
+   "numbered": 88,
+   "paren_number": 22
+  },
+  "recall_by_header_spelling": {
+   "DISCHARGE MEDICATIONS": 0.773,
+   "Discharge Medications": 0.741,
+   "Discharge Meds": 0.0,
+   "discharge medications": 0.818
+  },
+  "missed_examples": [
+   {
+    "note": "note_02",
+    "drug": "Carvedilol",
+    "line_format": "dose_range",
+    "header": "Discharge Medications"
+   },
+   {
+    "note": "note_03",
+    "drug": "Metoprolol succinate",
+    "line_format": "dose_range",
+    "header": "Discharge Medications"
+   },
+   {
+    "note": "note_04",
+    "drug": "Metformin",
+    "line_format": "paren_number",
+    "header": "DISCHARGE MEDICATIONS"
+   },
+   {
+    "note": "note_05",
+    "drug": "Lisinopril",
+    "line_format": "dose_range",
+    "header": "Discharge Medications"
+   },
+   {
+    "note": "note_05",
+    "drug": "Atorvastatin",
+    "line_format": "bullet_char",
+    "header": "Discharge Medications"
+   },
+   {
+    "note": "note_06",
+    "drug": "Spironolactone",
+    "line_format": "bullet_char",
+    "header": "Discharge Medications"
+   },
+   {
+    "note": "note_08",
+    "drug": "Carvedilol",
+    "line_format": "bullet_char",
+    "header": "Discharge Medications"
+   },
+   {
+    "note": "note_09",
+    "drug": "Metoprolol succinate",
+    "line_format": "paren_number",
+    "header": "Discharge Medications"
+   },
+   {
+    "note": "note_10",
+    "drug": "Sertraline",
+    "line_format": "paren_number",
+    "header": "Discharge Meds"
+   },
+   {
+    "note": "note_10",
+    "drug": "Aspirin",
+    "line_format": "numbered",
+    "header": "Discharge Meds"
+   },
+   {
+    "note": "note_10",
+    "drug": "Metformin",
+    "line_format": "numbered",
+    "header": "Discharge Meds"
+   },
+   {
+    "note": "note_11",
+    "drug": "Sertraline",
+    "line_format": "dose_range",
+    "header": "discharge medications"
+   }
+  ]
+ },
+ "summary": {
+  "k": 4,
+  "ranking_only": {
+   "assistant": {
+    "precision_at_k": 0.77,
+    "key_sentence_recall": 0.58,
+    "changed_drugs_mentioned": 0.5
+   },
+   "lead_k": {
+    "precision_at_k": 0.492,
+    "key_sentence_recall": 0.389,
+    "changed_drugs_mentioned": 0.347
+   },
+   "random": {
+    "precision_at_k": 0.586,
+    "key_sentence_recall": 0.463,
+    "changed_drugs_mentioned": 0.51
+   }
+  },
+  "end_to_end_key_recall": 0.463,
+  "compression": 0.466,
+  "summary_sentences_not_found_in_gold": 6,
+  "note": "random baseline uses a fixed seed; compression = summary words / hospital course words"
+ },
+ "other": {
+  "follow_up": {
+   "precision": 0.967,
+   "recall": 0.841,
+   "f1": 0.899,
+   "tp": 58,
+   "fp": 2,
+   "fn": 11
+  },
+  "warning_signs": {
+   "precision": 0.836,
+   "recall": 1.0,
+   "f1": 0.91,
+   "tp": 61,
+   "fp": 12,
+   "fn": 0
+  },
+  "pending_results": {
+   "precision": 1.0,
+   "recall": 0.769,
+   "f1": 0.87,
+   "tp": 10,
+   "fp": 0,
+   "fn": 3,
+   "accuracy": 0.925,
+   "tn": 27
+  }
+ },
+ "speed": {
+  "median_ms": 2.3,
+  "p95_ms": 2.5,
+  "notes_timed": 40
+ }
+}
